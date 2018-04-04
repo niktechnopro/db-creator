@@ -1,0 +1,20 @@
+Title: Orange Pear Shake Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/328207.jpg
+Rating: 4.0
+Ingredients: 
+Ingredient: 1.0 pear, cored and chopped
+Ingredient: 2.0 oranges, peeled and seeded
+Ingredient: 0.25 cup milk
+Ingredient: 0.75 cup vanilla ice cream
+Directions: 
+Duration: 5 m
+Step: In a blender, combine pear, oranges, milk and ice cream. Blend until smooth. Pour into glasses and serve.
+Nutrients: 
+Servings: 4
+Calories: 121
+Fat: 3.2
+Carbohydrates: 22.8
+Protein: 2.3
+
+
+Source: https://www.allrecipes.com/recipe/32284/orange-pear-shake/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

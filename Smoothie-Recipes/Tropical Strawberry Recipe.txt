@@ -1,0 +1,22 @@
+Title: Tropical Strawberry Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/3648181.jpg
+Rating: 4.35416650772095
+Ingredients: 
+Ingredient: 1.0 cups frozen strawberries
+Ingredient: 1.0 cup frozen pineapple chunks
+Ingredient: 0.5 cup milk
+Ingredient: 1.0 cups yogurt
+Ingredient: 2.0 tablespoons white sugar
+Ingredient: 1.0 cup crushed ice
+Directions: 
+Duration: 10 m
+Step: In a blender, blend the strawberries, pineapple, milk, yogurt, sugar, and ice until smooth.
+Nutrients: 
+Servings: 4
+Calories: 179
+Fat: 2.2
+Carbohydrates: 35.3
+Protein: 6.4
+
+
+Source: https://www.allrecipes.com/recipe/74575/tropical-strawberry/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

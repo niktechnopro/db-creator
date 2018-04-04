@@ -1,0 +1,21 @@
+Title: Banana Cherry Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1119856.jpg
+Rating: 4.59999990463257
+Ingredients: 
+Ingredient: 1.0 banana, cut into chunks
+Ingredient: 0.5 cup Greek yogurt
+Ingredient: 0.5 cup milk
+Ingredient: 0.3333333333333333 cup frozen pitted cherries
+Ingredient: 1.0 teaspoon honey, or to taste
+Directions: 
+Duration: 10 m
+Step: Blend banana, yogurt, milk, cherries, and honey together in a blender until smooth.
+Nutrients: 
+Servings: 2
+Calories: 198
+Fat: 6.5
+Carbohydrates: 31.1
+Protein: 6.2
+
+
+Source: https://www.allrecipes.com/recipe/237143/banana-cherry-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

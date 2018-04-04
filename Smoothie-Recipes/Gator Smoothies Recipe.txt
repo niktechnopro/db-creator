@@ -1,0 +1,19 @@
+Title: Gator Smoothies Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/4484482.jpg
+Rating: 4.38888883590698
+Ingredients: 
+Ingredient: 2.0 cups ice
+Ingredient: 2.0 cups grape flavored sports drink
+Ingredient: 2.0 scoops vanilla ice cream
+Directions: 
+Duration: 5 m
+Step: In a blender, combine ice, sports drink and ice cream. Blend until smooth. Pour into glasses and serve.
+Nutrients: 
+Servings: 2
+Calories: 96
+Fat: 2.3
+Carbohydrates: 18.3
+Protein: 0.7
+
+
+Source: https://www.allrecipes.com/recipe/22229/gator-smoothies/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

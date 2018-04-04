@@ -1,0 +1,19 @@
+Title: Nectarine Blush Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/918074.jpg
+Rating: 4.22222232818604
+Ingredients: 
+Ingredient: 2.0 nectarines, pitted and chopped
+Ingredient: 2.0 tablespoons brown sugar
+Ingredient: 1.0 cup buttermilk
+Directions: 
+Duration: 2 m
+Step: Place the nectarines, brown sugar and buttermilk in the bowl of a blender and blend until smooth. Serve immediately.
+Nutrients: 
+Servings: 2
+Calories: 160
+Fat: 1.5
+Carbohydrates: 33.5
+Protein: 5.5
+
+
+Source: https://www.allrecipes.com/recipe/142435/nectarine-blush/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

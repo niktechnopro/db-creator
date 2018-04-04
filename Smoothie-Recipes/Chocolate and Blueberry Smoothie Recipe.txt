@@ -1,0 +1,23 @@
+Title: Chocolate and Blueberry Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/842436.jpg
+Rating: 2.53333330154419
+Ingredients: 
+Ingredient: 2.0 teaspoons cocoa powder
+Ingredient: 1.0 teaspoon hot water
+Ingredient: 1.0 cup milk
+Ingredient: 4.0 tablespoons frozen blueberries
+Ingredient: 1.0 teaspoon white sugar
+Ingredient: 4.0 ice cubes
+Directions: 
+Duration: 5 m
+Step: Mix together the cocoa powder and water in a small bowl until the cocoa is dissolved.
+Step: Place the cocoa mixture, milk, blueberries, sugar, and ice cubes into a blender; cover and blend until smooth, 30 to 45 seconds. Serve cold.
+Nutrients: 
+Servings: 1
+Calories: 181
+Fat: 5.5
+Carbohydrates: 26.3
+Protein: 9.2
+
+
+Source: https://www.allrecipes.com/recipe/143308/chocolate-and-blueberry-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

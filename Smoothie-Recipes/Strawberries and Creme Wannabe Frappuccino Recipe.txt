@@ -1,0 +1,20 @@
+Title: Strawberries and Creme Wannabe Frappuccino Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/3815412.jpg
+Rating: 4.19999980926514
+Ingredients: 
+Ingredient: 0.75 cup milk
+Ingredient: 3.0 large strawberries, sliced
+Ingredient: 3.0 ice cubes
+Ingredient: 1.0 tablespoon white sugar
+Directions: 
+Duration: 10 m
+Step: Blend milk, strawberries, ice, and sugar together in a blender until smooth.
+Nutrients: 
+Servings: 1
+Calories: 157
+Fat: 3.8
+Carbohydrates: 25.2
+Protein: 6.4
+
+
+Source: https://www.allrecipes.com/recipe/238705/strawberries-and-creme-wannabe-frappuccino/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

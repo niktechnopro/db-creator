@@ -1,0 +1,22 @@
+Title: Crawford Berry Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/5179946.jpg
+Rating: 5.0
+Ingredients: 
+Ingredient: 1.0 cup whole strawberries
+Ingredient: 1.0 cup soy milk
+Ingredient: 1.0 banana
+Ingredient: 1.0 tablespoon agave nectar
+Ingredient: 1.0 tablespoon ground flax seed meal
+Ingredient: 0.25 teaspoon vanilla extract
+Directions: 
+Duration: 10 m
+Step: Blend strawberries, soy milk, banana, agave nectar, flax seed, and vanilla extract in a blender until creamy.
+Nutrients: 
+Servings: 1
+Calories: 386
+Fat: 8.1
+Carbohydrates: 72.2
+Protein: 11.5
+
+
+Source: https://www.allrecipes.com/recipe/236295/crawford-berry-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

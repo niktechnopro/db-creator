@@ -1,0 +1,22 @@
+Title: Green Monster Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/2983047.jpg
+Rating: 4.63888883590698
+Ingredients: 
+Ingredient: 1.0 cup fat-free milk
+Ingredient: 0.5 cup fat-free plain yogurt
+Ingredient: 1.0 banana, frozen and chunked
+Ingredient: 1.0 tablespoon natural peanut butter
+Ingredient: 2.0 cups fresh spinach
+Ingredient: 1.0 cup ice cubes (optional)
+Directions: 
+Duration: 5 m
+Step: Blend milk, yogurt, banana, peanut butter, spinach, and ice cubes until smooth.
+Nutrients: 
+Servings: 1
+Calories: 382
+Fat: 9.4
+Carbohydrates: 55.7
+Protein: 23.6
+
+
+Source: https://www.allrecipes.com/recipe/222708/green-monster-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

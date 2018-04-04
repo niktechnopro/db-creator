@@ -1,0 +1,23 @@
+Title: Carrot Cake Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1123828.jpg
+Rating: 4.0
+Ingredients: 
+Ingredient: 1.0 large carrot, peeled and diced
+Ingredient: 0.25 cup frozen mango chunks
+Ingredient: 1.0 large fresh peach, chopped
+Ingredient: 0.25 cup soy milk
+Ingredient: 1.0 tablespoon ground cinnamon
+Ingredient: 1.0 teaspoon ground allspice
+Ingredient: 1.0 teaspoon ground ginger
+Directions: 
+Duration: 10 m
+Step: Pulse carrot and mango together in a blender until roughly chopped. Add peach, soy milk, cinnamon, allspice, and ginger; blend until smooth.
+Nutrients: 
+Servings: 1
+Calories: 151
+Fat: 1.7
+Carbohydrates: 34.0
+Protein: 3.5
+
+
+Source: https://www.allrecipes.com/recipe/237330/carrot-cake-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

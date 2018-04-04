@@ -1,0 +1,20 @@
+Title: Mango-Banana Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/922537.jpg
+Rating: 4.6712327003479
+Ingredients: 
+Ingredient: 1.0 banana
+Ingredient: 0.5 cup frozen mango pieces
+Ingredient: 0.3333333333333333 cup plain yogurt
+Ingredient: 0.5 cup orange-mango juice blend
+Directions: 
+Duration: 5 m
+Step: Combine the banana, mango, yogurt, and juice in a blender; blend until nearly smooth.
+Nutrients: 
+Servings: 2
+Calories: 135
+Fat: 0.9
+Carbohydrates: 30.4
+Protein: 3.2
+
+
+Source: https://www.allrecipes.com/recipe/161571/mango-banana-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

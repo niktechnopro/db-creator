@@ -1,0 +1,23 @@
+Title: Nutty Avocado Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/3550969.jpg
+Rating: 4.75
+Ingredients: 
+Ingredient: 1.0 tablespoon shelled pistachios
+Ingredient: 1.0 tablespoon almonds
+Ingredient: 0.75 cup unsweetened coconut milk
+Ingredient: 5.0 cubes ice cubes
+Ingredient: 0.5 large avocado, peeled and pitted
+Ingredient: 1.0 tablespoon honey
+Ingredient: 1.0 pinch saffron threads (optional)
+Directions: 
+Duration: 10 m
+Step: Blend pistachios and almonds in a blender until ground; add coconut milk, ice cubes, avocado, honey, and saffron. Blend until smooth.
+Nutrients: 
+Servings: 2
+Calories: 354
+Fat: 31.9
+Carbohydrates: 19.1
+Protein: 4.7
+
+
+Source: https://www.allrecipes.com/recipe/235971/nutty-avocado/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

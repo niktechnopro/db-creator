@@ -1,0 +1,22 @@
+Title: Healthy Chocolate Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/5167601.jpg
+Rating: 4.0
+Ingredients: 
+Ingredient: 2.0 very ripe bananas
+Ingredient: 6.0 ice cubes
+Ingredient: 1.0 cup milk
+Ingredient: 1.0 tablespoons unsweetened cocoa powder
+Ingredient: 1.0 tablespoon peanut butter
+Ingredient: 1.0 teaspoon vanilla extract
+Directions: 
+Duration: 10 m
+Step: Blend bananas, ice cubes, milk, cocoa powder, peanut butter, and vanilla extract together in a blender on high speed until smooth.
+Nutrients: 
+Servings: 2
+Calories: 229
+Fat: 7.4
+Carbohydrates: 36.7
+Protein: 8.1
+
+
+Source: https://www.allrecipes.com/recipe/245061/healthy-chocolate-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

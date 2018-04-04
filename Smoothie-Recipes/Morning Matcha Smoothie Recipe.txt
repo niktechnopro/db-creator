@@ -1,0 +1,21 @@
+Title: Morning Matcha Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/2258956.jpg
+Rating: 3.5
+Ingredients: 
+Ingredient: 1.0 cup milk
+Ingredient: 0.5 avocado, peeled and pitted
+Ingredient: 0.5 cup ice
+Ingredient: 2.0 tablespoons vanilla protein powder
+Ingredient: 0.5 teaspoon matcha green tea powder
+Directions: 
+Duration: 5 m
+Step: Blend milk, avocado, ice, vanilla protein powder, and matcha green tea powder together in a blender until smooth.
+Nutrients: 
+Servings: 1
+Calories: 450
+Fat: 20.7
+Carbohydrates: 23.8
+Protein: 45.6
+
+
+Source: https://www.allrecipes.com/recipe/242395/morning-matcha-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

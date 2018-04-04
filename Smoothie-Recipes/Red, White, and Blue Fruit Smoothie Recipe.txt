@@ -1,0 +1,23 @@
+Title: Red, White, and Blue Fruit Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/916773.jpg
+Rating: 4.52439022064209
+Ingredients: 
+Ingredient: 0.5 large banana, cut into pieces and frozen
+Ingredient: 2.0 large fresh strawberries, rinsed and sliced
+Ingredient: 0.25 cup blueberries
+Ingredient: 0.5 cup milk
+Ingredient: 1.0 teaspoon vanilla extract
+Ingredient: 2.0 tablespoons vanilla yogurt
+Ingredient: 2.0 ice cubes
+Directions: 
+Duration: 5 m
+Step: Place the banana pieces, strawberries, blueberries, milk, vanilla extract, yogurt, and ice cubes in a blender.  Blend until smooth.
+Nutrients: 
+Servings: 1
+Calories: 192
+Fat: 3.2
+Carbohydrates: 34.0
+Protein: 6.8
+
+
+Source: https://www.allrecipes.com/recipe/143322/red-white-and-blue-fruit-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

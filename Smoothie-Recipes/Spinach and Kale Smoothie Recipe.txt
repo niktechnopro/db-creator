@@ -1,0 +1,22 @@
+Title: Spinach and Kale Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1128793.jpg
+Rating: 4.55319166183472
+Ingredients: 
+Ingredient: 2.0 cups fresh spinach
+Ingredient: 1.0 cup almond milk
+Ingredient: 1.0 tablespoon peanut butter
+Ingredient: 1.0 tablespoon chia seeds (optional)
+Ingredient: 1.0 leaf kale
+Ingredient: 1.0 sliced frozen banana
+Directions: 
+Duration: 10 m
+Step: Blend spinach, almond milk, peanut butter, chia seeds, and kale together in a blender until smooth. Add banana and blend until smooth.
+Nutrients: 
+Servings: 1
+Calories: 325
+Fat: 13.9
+Carbohydrates: 46.1
+Protein: 10.0
+
+
+Source: https://www.allrecipes.com/recipe/236951/spinach-and-kale-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

@@ -1,0 +1,21 @@
+Title: Banana Berry Smoothie II Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/808835.jpg
+Rating: 4.20353984832764
+Ingredients: 
+Ingredient: 1.0 cup milk
+Ingredient: 1.0 banana
+Ingredient: 3.0 large strawberries
+Ingredient: 1.0 tablespoon vanilla yogurt
+Ingredient: 1.0 teaspoon honey
+Directions: 
+Duration: 5 m
+Step: In a blender, combine milk, banana, strawberries, yogurt and honey. Blend until smooth. Pour into glass and serve.
+Nutrients: 
+Servings: 1
+Calories: 280
+Fat: 5.5
+Carbohydrates: 50.8
+Protein: 10.5
+
+
+Source: https://www.allrecipes.com/recipe/33664/banana-berry-smoothie-ii/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

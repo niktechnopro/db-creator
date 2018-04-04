@@ -1,0 +1,23 @@
+Title: Raspberry and Cherry Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/4570380.jpg
+Rating: 5.0
+Ingredients: 
+Ingredient: 1.0 cups frozen, pitted cherries
+Ingredient: 1.0 cup almond milk
+Ingredient: 1.0 cup frozen raspberries
+Ingredient: 1.0 lemon, juiced
+Ingredient: 1.0 tablespoon chia seeds
+Ingredient: 1.0 teaspoon maple syrup
+Ingredient: 0.5 teaspoon finely grated ginger
+Directions: 
+Duration: 5 m
+Step: Combine cherries, almond milk, raspberries, lemon juice, chia seeds, maple syrup, and ginger in a blender; blend until smooth.
+Nutrients: 
+Servings: 2
+Calories: 178
+Fat: 3.8
+Carbohydrates: 35.2
+Protein: 3.5
+
+
+Source: https://www.allrecipes.com/recipe/260166/raspberry-and-cherry-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

@@ -1,0 +1,22 @@
+Title: Honey-Mango Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/506492.jpg
+Rating: 2.78571438789368
+Ingredients: 
+Ingredient: 1.0 mango - peeled, seeded, and cubed
+Ingredient: 1.0 tablespoon white sugar
+Ingredient: 2.0 tablespoons honey
+Ingredient: 1.0 cup nonfat milk
+Ingredient: 1.0 teaspoon lemon juice
+Ingredient: 1.0 cup ice cubes
+Directions: 
+Duration: 10 m
+Step: Place the mango, sugar, and honey in a blender pitcher; pour in the milk and lemon juice, and blend until smooth. Divide the ice cubes between two serving glasses. Pour the mango smoothie over ice to serve.
+Nutrients: 
+Servings: 2
+Calories: 198
+Fat: 0.4
+Carbohydrates: 47.5
+Protein: 4.7
+
+
+Source: https://www.allrecipes.com/recipe/143824/honey-mango-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

@@ -1,0 +1,20 @@
+Title: Chocolate Banana Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/423574.jpg
+Rating: 4.13286733627319
+Ingredients: 
+Ingredient: 1.0 banana
+Ingredient: 1.0 tablespoon chocolate syrup
+Ingredient: 1.0 cup milk
+Ingredient: 1.0 cup crushed ice
+Directions: 
+Duration: 5 m
+Step: In a blender, combine banana, chocolate syrup, milk and crushed ice. Blend until smooth. Pour into glasses and serve.
+Nutrients: 
+Servings: 1
+Calories: 279
+Fat: 5.4
+Carbohydrates: 50.6
+Protein: 9.7
+
+
+Source: https://www.allrecipes.com/recipe/32571/chocolate-banana-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

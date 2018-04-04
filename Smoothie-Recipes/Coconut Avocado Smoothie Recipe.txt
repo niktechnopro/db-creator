@@ -1,0 +1,21 @@
+Title: Coconut Avocado Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1929351.jpg
+Rating: 4.32432413101196
+Ingredients: 
+Ingredient: 1.0 Hass avocado, diced
+Ingredient: 0.5 cup low-fat vanilla yogurt
+Ingredient: 0.5 cup whole milk
+Ingredient: 0.25 cup cream of coconut
+Ingredient: 8.0 ice cubes
+Directions: 
+Duration: 5 m
+Step: Combine avocado, yogurt, milk, cream of coconut, and ice cubes in a blender; blend until smooth.
+Nutrients: 
+Servings: 2
+Calories: 357
+Fat: 22.4
+Carbohydrates: 35.7
+Protein: 7.3
+
+
+Source: https://www.allrecipes.com/recipe/213634/coconut-avocado-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

@@ -1,0 +1,21 @@
+Title: Summery Afternoon Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1171399.jpg
+Rating: 4.5
+Ingredients: 
+Ingredient: 1.0 cup milk
+Ingredient: 0.3333333333333333 mango - peeled, seeded, and diced
+Ingredient: 4.0 strawberries, hulled
+Ingredient: 0.25 cup low-fat peach yogurt
+Ingredient: 3.0 teaspoons honey
+Directions: 
+Duration: 10 m
+Step: Blend milk, mango, strawberries, yogurt, and honey together in a blender until smooth.
+Nutrients: 
+Servings: 1
+Calories: 334
+Fat: 6.0
+Carbohydrates: 62.0
+Protein: 11.9
+
+
+Source: https://www.allrecipes.com/recipe/238069/summery-afternoon-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

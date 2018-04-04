@@ -1,0 +1,20 @@
+Title: Melon Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/14238.jpg
+Rating: 4.57142877578735
+Ingredients: 
+Ingredient: 0.25 cantaloupe - peeled, seeded and cubed
+Ingredient: 0.25 honeydew melon - peeled, seeded and cubed
+Ingredient: 1.0 lime, juiced
+Ingredient: 2.0 tablespoons sugar
+Directions: 
+Duration: 5 m
+Step: In a blender, combine cantaloupe, honeydew, lime juice and sugar. Blend until smooth. Pour into glasses and serve.
+Nutrients: 
+Servings: 4
+Calories: 70
+Fat: 0.2
+Carbohydrates: 18.1
+Protein: 0.8
+
+
+Source: https://www.allrecipes.com/recipe/32450/melon-smoothie/?internalSource=recipe%20hub&referringId=138&referringContentType=recipe%20hub&clickId=cardslot%20102

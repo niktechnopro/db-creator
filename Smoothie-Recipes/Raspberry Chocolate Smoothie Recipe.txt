@@ -1,0 +1,21 @@
+Title: Raspberry Chocolate Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/660607.jpg
+Rating: 4.2857141494751
+Ingredients: 
+Ingredient: 0.75 cup chocolate flavored soy milk
+Ingredient: 0.75 cup chocolate sorbet
+Ingredient: 1.0 cups frozen unsweetened raspberries
+Ingredient: 0.5 banana, peeled and sliced
+Ingredient: 1.0 leaf fresh mint, chopped
+Directions: 
+Duration: 10 m
+Step: In a blender, blend the soy milk, sorbet, raspberries, and banana until smooth. Garnish with mint to serve.
+Nutrients: 
+Servings: 2
+Calories: 341
+Fat: 1.8
+Carbohydrates: 78.7
+Protein: 5.5
+
+
+Source: https://www.allrecipes.com/recipe/71748/raspberry-chocolate-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

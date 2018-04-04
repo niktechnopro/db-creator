@@ -1,0 +1,23 @@
+Title: Fruit and Yogurt Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/441727.jpg
+Rating: 4.6530613899231
+Ingredients: 
+Ingredient: 1.0 banana
+Ingredient: 0.5 cup yogurt
+Ingredient: 1.0 teaspoons white sugar
+Ingredient: 0.25 cup pineapple juice
+Ingredient: 1.0 cup strawberries
+Ingredient: 1.0 teaspoon orange juice
+Ingredient: 1.0 teaspoon milk
+Directions: 
+Duration: 5 m
+Step: Blend the banana, yogurt, sugar, pineapple juice, strawberries, orange juice, and milk in a blender until smooth.
+Nutrients: 
+Servings: 2
+Calories: 147
+Fat: 1.5
+Carbohydrates: 31.3
+Protein: 4.6
+
+
+Source: https://www.allrecipes.com/recipe/215189/fruit-and-yogurt-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

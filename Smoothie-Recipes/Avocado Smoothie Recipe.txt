@@ -1,0 +1,21 @@
+Title: Avocado Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/428334.jpg
+Rating: 4.4579439163208
+Ingredients: 
+Ingredient: 1.0 ripe avocado, halved and pitted
+Ingredient: 1.0 cup milk
+Ingredient: 0.5 cup vanilla yogurt
+Ingredient: 3.0 tablespoons honey
+Ingredient: 8.0 ice cubes
+Directions: 
+Duration: 5 m
+Step: Combine the avocado, milk, yogurt, honey, and ice cubes in a blender; blend until smooth.
+Nutrients: 
+Servings: 2
+Calories: 370
+Fat: 17.9
+Carbohydrates: 48.7
+Protein: 9.2
+
+
+Source: https://www.allrecipes.com/recipe/199931/avocado-smoothie/?internalSource=streams&referringId=138&referringContentType=recipe%20hub&clickId=st_recipes_mades

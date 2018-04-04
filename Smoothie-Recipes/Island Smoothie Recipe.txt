@@ -1,0 +1,21 @@
+Title: Island Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/3551443.jpg
+Rating: 4.22222232818604
+Ingredients: 
+Ingredient: 1.0 cup ice
+Ingredient: 2.0 cups pineapple juice
+Ingredient: 0.5 cup ginger ale
+Ingredient: 3.0 tablespoons coconut milk
+Ingredient: 1.0 tablespoon white sugar
+Directions: 
+Duration: 5 m
+Step: Combine the ice, pineapple juice, ginger ale, coconut milk, and sugar in a blender; blend until smooth.
+Nutrients: 
+Servings: 1
+Calories: 445
+Fat: 10.2
+Carbohydrates: 88.8
+Protein: 2.7
+
+
+Source: https://www.allrecipes.com/recipe/199909/island-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

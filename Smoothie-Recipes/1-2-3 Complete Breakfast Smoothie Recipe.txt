@@ -1,0 +1,22 @@
+Title: 1-2-3 Complete Breakfast Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/2004499.jpg
+Rating: 5.0
+Ingredients: 
+Ingredient: 0.5 cup mixed frozen berries
+Ingredient: 0.25 cup Greek yogurt
+Ingredient: 0.25 cup steel-cut oats
+Ingredient: 0.25 cup water
+Ingredient: 1.0 scoop protein powder
+Ingredient: 1.0 teaspoon honey, or to taste
+Directions: 
+Duration: 5 m
+Step: Blend berries, yogurt, oats, water, protein powder, and honey in a blender until smooth.
+Nutrients: 
+Servings: 1
+Calories: 362
+Fat: 9.4
+Carbohydrates: 45.1
+Protein: 28.2
+
+
+Source: https://www.allrecipes.com/recipe/240975/1-2-3-complete-breakfast-smoothie/?internalSource=recipe%20hub&referringId=138&referringContentType=recipe%20hub&clickId=cardslot%20283

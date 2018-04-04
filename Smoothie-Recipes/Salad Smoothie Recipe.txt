@@ -1,0 +1,28 @@
+Title: Salad Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1233309.jpg
+Rating: 3.125
+Ingredients: 
+Ingredient: 1.0 cup water, or as desired
+Ingredient: 0.5 orange, peeled
+Ingredient: 1.0 cup fresh spinach
+Ingredient: 0.5 raw beet, peeled
+Ingredient: 0.3333333333333333 cup baby carrots
+Ingredient: 0.3333333333333333 cup cauliflower florets
+Ingredient: 0.3333333333333333 cup broccoli florets
+Ingredient: 0.25 cup blueberries, or to taste
+Ingredient: 1.0 stalk celery
+Ingredient: 0.5 lime, peeled
+Ingredient: 1.0 tablespoon honey
+Ingredient: 1.0 tablespoon chia seeds
+Directions: 
+Duration: 10 m
+Step: Pour water into the pitcher of a high-powered blender; add the orange, spinach, beet, carrots, cauliflower, broccoli, blueberries, celery, lime, honey, and chia seeds. Blend on high speed until smooth, about 1 minute.
+Nutrients: 
+Servings: 1
+Calories: 199
+Fat: 3.0
+Carbohydrates: 43.6
+Protein: 5.5
+
+
+Source: https://www.allrecipes.com/recipe/238154/salad-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub
