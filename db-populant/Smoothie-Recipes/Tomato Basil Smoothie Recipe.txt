@@ -1,0 +1,21 @@
+Title: Tomato Basil Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1186990.jpg
+Rating: 0.0
+Ingredients: 
+Ingredient: 1.0 cup fresh spinach leaves
+Ingredient: 0.5 large tomato, cut into chunks
+Ingredient: 0.5 cup frozen mango chunks
+Ingredient: 0.5 cup ice cubes
+Ingredient: 2.0 large fresh basil leaves
+Directions: 
+Duration: 10 m
+Step: Blend spinach, tomato, mango, ice, and basil leaves together in a blender until smooth.
+Nutrients: 
+Servings: 1
+Calories: 77
+Fat: 0.5
+Carbohydrates: 18.7
+Protein: 2.1
+
+
+Source: https://www.allrecipes.com/recipe/237870/tomato-basil-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

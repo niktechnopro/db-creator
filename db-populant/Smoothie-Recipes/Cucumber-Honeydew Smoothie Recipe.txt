@@ -1,0 +1,21 @@
+Title: Cucumber-Honeydew Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/219998.jpg
+Rating: 4.307692527771
+Ingredients: 
+Ingredient: 1.0 cucumber, peeled, seeded and chopped
+Ingredient: 2.0 cups cubed honeydew melon
+Ingredient: 2.0 cups passion fruit juice
+Ingredient: 8.0 sprigs fresh mint, or amount to taste
+Ingredient: 2.0 cups crushed ice
+Directions: 
+Duration: 15 m
+Step: Combine cucumber, honeydew melon, passion fruit juice, and ice in a blender. Pull leaves from mint springs and add to blender. Blend mixture until smooth. Pour into tall glasses.
+Nutrients: 
+Servings: 2
+Calories: 237
+Fat: 0.9
+Carbohydrates: 57.5
+Protein: 3.9
+
+
+Source: https://www.allrecipes.com/recipe/145789/cucumber-honeydew-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

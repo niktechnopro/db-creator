@@ -1,0 +1,21 @@
+Title: BlueCar Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/4555711.jpg
+Rating: 4.33333349227905
+Ingredients: 
+Ingredient: 2.0 cups almond milk
+Ingredient: 1.0 cup yogurt
+Ingredient: 1.0 banana
+Ingredient: 0.5 cup blueberries
+Ingredient: 2.0 pinches ground cardamom
+Directions: 
+Duration: 5 m
+Step: Blend almond milk, yogurt, banana, blueberries, and cardamom together in a blender until smooth.
+Nutrients: 
+Servings: 1
+Calories: 435
+Fat: 9.9
+Carbohydrates: 73.1
+Protein: 17.0
+
+
+Source: https://www.allrecipes.com/recipe/245997/bluecar-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

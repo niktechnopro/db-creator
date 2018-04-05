@@ -1,0 +1,21 @@
+Title: Blueberry Cucumber Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1421516.jpg
+Rating: 4.66666650772095
+Ingredients: 
+Ingredient: 1.0 frozen banana, cut into chunks
+Ingredient: 0.5 cucumber - peeled, seeded, and cut into chunks
+Ingredient: 0.75 cup buttermilk
+Ingredient: 0.25 cup coconut water
+Ingredient: 2.0 tablespoons blueberry preserves
+Directions: 
+Duration: 10 m
+Step: Blend banana, cucumber, buttermilk, coconut water, and blueberry preserves together in a blender until smooth.
+Nutrients: 
+Servings: 1
+Calories: 252
+Fat: 2.3
+Carbohydrates: 53.5
+Protein: 8.4
+
+
+Source: https://www.allrecipes.com/recipe/239083/blueberry-cucumber-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

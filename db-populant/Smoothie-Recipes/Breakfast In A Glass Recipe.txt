@@ -1,0 +1,20 @@
+Title: Breakfast In A Glass Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/837476.jpg
+Rating: 4.01666688919067
+Ingredients: 
+Ingredient: 1.0 banana
+Ingredient: 0.25 cup strawberries
+Ingredient: 0.3333333333333333 cup nonfat milk
+Ingredient: 1.0 ounce) container nonfat plain yogurt
+Directions: 
+Duration: 5 m
+Step: In a blender, combine banana, strawberries, milk and yogurt. Blend until smooth. Pour into glasses and serve.
+Nutrients: 
+Servings: 2
+Calories: 141
+Fat: 0.5
+Carbohydrates: 26.3
+Protein: 9.2
+
+
+Source: https://www.allrecipes.com/recipe/32481/breakfast-in-a-glass/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

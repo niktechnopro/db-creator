@@ -1,0 +1,24 @@
+Title: Peachy Keen Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/228845.jpg
+Rating: 3.33333325386047
+Ingredients: 
+Ingredient: 1.0 cup sliced peaches
+Ingredient: 4.0 cubes ice (optional)
+Ingredient: 0.25 teaspoon ground nutmeg
+Ingredient: 0.5 teaspoon vanilla extract
+Ingredient: 0.5 teaspoon honey
+Ingredient: 2.0 teaspoons wheat germ
+Ingredient: 1.0 tablespoon rolled oats
+Ingredient: 1.0 cup vanilla soy milk
+Directions: 
+Duration: 10 m
+Step: Place the peaches, ice, nutmeg, vanilla extract, honey, wheat germ, oats, and soy milk into a blender. Cover, and puree until smooth. Pour into glasses to serve.
+Nutrients: 
+Servings: 2
+Calories: 111
+Fat: 2.7
+Carbohydrates: 16.4
+Protein: 4.9
+
+
+Source: https://www.allrecipes.com/recipe/59145/peachy-keen-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

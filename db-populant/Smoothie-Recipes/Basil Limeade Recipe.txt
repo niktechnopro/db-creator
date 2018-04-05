@@ -1,0 +1,21 @@
+Title: Basil Limeade Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1107262.jpg
+Rating: 4.59999990463257
+Ingredients: 
+Ingredient: 1.0 cup seedless green grapes
+Ingredient: 0.125 lime, including rind
+Ingredient: 2.0 pitted dates
+Ingredient: 1.0 cup fresh basil leaves
+Ingredient: 1.0 cup ice
+Directions: 
+Duration: 10 m
+Step: Place grapes, lime, dates, basil, and ice, respectively, in a blender; blend on high until smooth.
+Nutrients: 
+Servings: 2
+Calories: 86
+Fat: 0.6
+Carbohydrates: 21.4
+Protein: 1.4
+
+
+Source: https://www.allrecipes.com/recipe/235996/basil-limeade/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

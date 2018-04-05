@@ -1,0 +1,21 @@
+Title: Delicious Blueberry Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/444498.jpg
+Rating: 3.76923084259033
+Ingredients: 
+Ingredient: 0.25 cup apple juice
+Ingredient: 1.0 tablespoon instant iced tea powder
+Ingredient: 0.5 cup frozen blueberries
+Ingredient: 1.0 frozen banana
+Ingredient: 1.0 tablespoon lemon juice (optional)
+Directions: 
+Duration: 5 m
+Step: Place the apple juice, iced tea powder, blueberries, banana, and lemon juice into a blender pitcher. Blend on high until smooth.
+Nutrients: 
+Servings: 1
+Calories: 184
+Fat: 1.0
+Carbohydrates: 46.2
+Protein: 2.1
+
+
+Source: https://www.allrecipes.com/recipe/142547/delicious-blueberry-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

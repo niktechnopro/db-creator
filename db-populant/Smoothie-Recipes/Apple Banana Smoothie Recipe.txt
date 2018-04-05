@@ -1,0 +1,20 @@
+Title: Apple Banana Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/394662.jpg
+Rating: 4.03305768966675
+Ingredients: 
+Ingredient: 1.0 frozen bananas, peeled and chopped
+Ingredient: 0.5 cup orange juice
+Ingredient: 1.0 Gala apple, peeled, cored and chopped
+Ingredient: 0.25 cup milk
+Directions: 
+Duration: 5 m
+Step: In a blender combine frozen banana, orange juice, apple and milk. Blend until smooth. pour into glasses and serve.
+Nutrients: 
+Servings: 2
+Calories: 132
+Fat: 1.0
+Carbohydrates: 30.9
+Protein: 2.3
+
+
+Source: https://www.allrecipes.com/recipe/20610/apple-banana-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

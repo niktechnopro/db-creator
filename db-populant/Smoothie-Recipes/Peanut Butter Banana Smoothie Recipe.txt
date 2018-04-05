@@ -1,0 +1,21 @@
+Title: Peanut Butter Banana Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1011848.jpg
+Rating: 4.54359912872314
+Ingredients: 
+Ingredient: 2.0 bananas, broken into chunks
+Ingredient: 2.0 cups milk
+Ingredient: 0.5 cup peanut butter
+Ingredient: 2.0 tablespoons honey, or to taste
+Ingredient: 2.0 cups ice cubes
+Directions: 
+Duration: 5 m
+Step: Place bananas, milk, peanut butter, honey, and ice cubes in a blender; blend until smooth, about 30 seconds.
+Nutrients: 
+Servings: 4
+Calories: 335
+Fat: 18.8
+Carbohydrates: 34.1
+Protein: 12.8
+
+
+Source: https://www.allrecipes.com/recipe/221261/peanut-butter-banana-smoothie/?internalSource=streams&referringId=138&referringContentType=recipe%20hub&clickId=st_recipes_mades

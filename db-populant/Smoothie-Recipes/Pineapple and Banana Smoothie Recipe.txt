@@ -1,0 +1,20 @@
+Title: Pineapple and Banana Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1093566.jpg
+Rating: 4.54032278060913
+Ingredients: 
+Ingredient: 4.0 ice cubes
+Ingredient: 0.25 fresh pineapple - peeled, cored and cubed
+Ingredient: 1.0 large banana, cut into chunks
+Ingredient: 1.0 cup pineapple or apple juice
+Directions: 
+Duration: 3 m
+Step: Place ice cubes, pineapple, banana, and pineapple juice into the bowl of a blender. Puree on high until smooth.
+Nutrients: 
+Servings: 1
+Calories: 313
+Fat: 0.9
+Carbohydrates: 78.7
+Protein: 3.0
+
+
+Source: https://www.allrecipes.com/recipe/138159/pineapple-and-banana-smoothie/?internalSource=streams&referringId=138&referringContentType=recipe%20hub&clickId=st_recipes_mades

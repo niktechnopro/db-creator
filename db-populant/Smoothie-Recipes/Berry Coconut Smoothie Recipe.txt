@@ -1,0 +1,21 @@
+Title: Berry Coconut Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/3384561.jpg
+Rating: 4.57142877578735
+Ingredients: 
+Ingredient: 1.0 banana
+Ingredient: 0.5 cup frozen blueberries
+Ingredient: 1.0 tablespoon almond butter
+Ingredient: 1.0 tablespoon unsweetened flaked coconut
+Ingredient: 0.5 cup water, or as needed
+Directions: 
+Duration: 10 m
+Step: Layer banana, blueberries, almond butter, coconut, and water in a blender; blend until smooth, adding more water for a thinner smoothie.
+Nutrients: 
+Servings: 1
+Calories: 286
+Fat: 13.9
+Carbohydrates: 42.2
+Protein: 4.6
+
+
+Source: https://www.allrecipes.com/recipe/246614/berry-coconut-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

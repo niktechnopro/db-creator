@@ -1,0 +1,22 @@
+Title: Blueberry Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/673981.jpg
+Rating: 4.40151500701904
+Ingredients: 
+Ingredient: 1.0 cup blueberries (frozen or fresh)
+Ingredient: 1.0 ounce) container plain yogurt
+Ingredient: 0.75 cup 2% reduced-fat milk
+Ingredient: 2.0 tablespoons white sugar
+Ingredient: 0.5 teaspoon vanilla extract
+Ingredient: 0.125 teaspoon ground nutmeg
+Directions: 
+Duration: 5 m
+Step: Blend the blueberries, yogurt, milk, sugar, vanilla, and nutmeg in a blender until frothy, scraping down the sides of the blender with a spatula occasionally. Serve immediately.
+Nutrients: 
+Servings: 2
+Calories: 211
+Fat: 3.9
+Carbohydrates: 35.5
+Protein: 9.5
+
+
+Source: https://www.allrecipes.com/recipe/215184/blueberry-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

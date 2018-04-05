@@ -1,0 +1,20 @@
+Title: California Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/680650.jpg
+Rating: 4.53191471099854
+Ingredients: 
+Ingredient: 7.0 large strawberries
+Ingredient: 1.0 ounce) container lemon yogurt
+Ingredient: 0.3333333333333333 cup orange juice
+Directions: 
+Duration: 10 m
+Step: Place strawberries in a plastic container and freeze for about an hour.
+Step: In a blender, combine frozen strawberries, yogurt and orange juice. Blend until smooth. Pour into a tall glass and serve.
+Nutrients: 
+Servings: 1
+Calories: 281
+Fat: 0.9
+Carbohydrates: 57.4
+Protein: 12.9
+
+
+Source: https://www.allrecipes.com/recipe/32478/california-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

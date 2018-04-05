@@ -1,0 +1,20 @@
+Title: Agua Fresca Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/968809.jpg
+Rating: 4.53333330154419
+Ingredients: 
+Ingredient: 1.0 cups water
+Ingredient: 3.0 slices cantaloupe, peeled and seeded
+Ingredient: 6.0 tablespoons white sugar
+Ingredient: 1.0 cup ice cubes
+Directions: 
+Duration: 5 m
+Step: Place water, cantaloupe, and sugar in a blender; blend until smooth. Divide ice into two glasses and pour cantaloupe mixture over ice.
+Nutrients: 
+Servings: 2
+Calories: 180
+Fat: 0.2
+Carbohydrates: 45.9
+Protein: 0.9
+
+
+Source: https://www.allrecipes.com/recipe/230153/agua-fresca/?internalSource=recipe%20hub&referringId=138&referringContentType=recipe%20hub&clickId=cardslot%20172

@@ -1,0 +1,20 @@
+Title: Mango-Peach Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/414770.jpg
+Rating: 4.66666650772095
+Ingredients: 
+Ingredient: 1.0 peach, sliced
+Ingredient: 1.0 mango, peeled and diced
+Ingredient: 0.5 cup vanilla soy milk
+Ingredient: 0.5 cup orange juice, or as needed
+Directions: 
+Duration: 10 m
+Step: Place the peach, mango, soy milk, and orange juice into a blender. Cover, and puree until smooth. Pour into glasses to serve.
+Nutrients: 
+Servings: 2
+Calories: 105
+Fat: 1.3
+Carbohydrates: 22.3
+Protein: 2.5
+
+
+Source: https://www.allrecipes.com/recipe/66224/mango-peach-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

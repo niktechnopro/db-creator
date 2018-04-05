@@ -1,0 +1,23 @@
+Title: Tropical Sunshine Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1110520.jpg
+Rating: 5.0
+Ingredients: 
+Ingredient: 1.0 banana
+Ingredient: 0.5 cup orange juice
+Ingredient: 0.5 cup cubed fresh mango
+Ingredient: 0.5 cup cubed fresh pineapple
+Ingredient: 0.5 cup coconut water
+Ingredient: 0.5 teaspoon freshly squeezed lime juice
+Ingredient: 1.0 sprig fresh chocolate mint, finely chopped
+Directions: 
+Duration: 10 m
+Step: Blend banana, orange juice, mango, pineapple, coconut water, lime juice, mint in a blender until smooth.
+Nutrients: 
+Servings: 2
+Calories: 140
+Fat: 0.6
+Carbohydrates: 34.8
+Protein: 2.0
+
+
+Source: https://www.allrecipes.com/recipe/233227/tropical-sunshine-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

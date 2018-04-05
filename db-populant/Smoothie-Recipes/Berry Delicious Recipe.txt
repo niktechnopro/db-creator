@@ -1,0 +1,21 @@
+Title: Berry Delicious Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/2275869.jpg
+Rating: 4.62831878662109
+Ingredients: 
+Ingredient: 2.0 cups frozen mixed berries
+Ingredient: 1.0 cup strawberry flavored yogurt
+Ingredient: 1.0 banana, sliced
+Ingredient: 1.0 cup milk
+Ingredient: 0.5 teaspoon white sugar (optional)
+Directions: 
+Duration: 5 m
+Step: In the container of a blender, combine the mixed berries, strawberry yogurt, banana, milk and sugar. Cover, and blend until smooth. Pour into glasses and serve.
+Nutrients: 
+Servings: 4
+Calories: 118
+Fat: 1.5
+Carbohydrates: 24.0
+Protein: 4.8
+
+
+Source: https://www.allrecipes.com/recipe/135383/berry-delicious/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

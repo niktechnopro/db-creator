@@ -1,0 +1,22 @@
+Title: Orange Snowman Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/98526.jpg
+Rating: 4.29166650772095
+Ingredients: 
+Ingredient: 1.0 ounce) can frozen orange juice concentrate
+Ingredient: 0.5 cup milk
+Ingredient: 0.5 cup water
+Ingredient: 0.5 cup sugar
+Ingredient: 0.5 teaspoon vanilla extract
+Ingredient: 14.0 cubes  ice
+Directions: 
+Duration: 5 m
+Step: In a blender, combine orange juice concentrate, milk, water, sugar, vanilla and ice. Blend until smooth. Pour into glasses and serve.
+Nutrients: 
+Servings: 4
+Calories: 198
+Fat: 0.7
+Carbohydrates: 46.8
+Protein: 2.3
+
+
+Source: https://www.allrecipes.com/recipe/32447/orange-snowman/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

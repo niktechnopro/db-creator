@@ -1,0 +1,21 @@
+Title: Banana Lassi Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1234501.jpg
+Rating: 4.7142858505249
+Ingredients: 
+Ingredient: 2.0 over-ripe bananas, broken into chunks
+Ingredient: 1.0 cups thick plain yogurt
+Ingredient: 0.3333333333333333 cup milk, or more to taste
+Ingredient: 2.0 ice cubes
+Ingredient: 2.0 tablespoons white sugar
+Directions: 
+Duration: 10 m
+Step: Blend bananas, yogurt, milk, ice cubes, and sugar together in a blender until smooth.
+Nutrients: 
+Servings: 2
+Calories: 270
+Fat: 3.6
+Carbohydrates: 52.1
+Protein: 10.7
+
+
+Source: https://www.allrecipes.com/recipe/238362/banana-lassi/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

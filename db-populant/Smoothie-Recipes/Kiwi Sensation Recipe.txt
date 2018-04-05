@@ -1,0 +1,23 @@
+Title: Kiwi Sensation Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/950817.jpg
+Rating: 4.0
+Ingredients: 
+Ingredient: 1.0 kiwi, peeled and sliced
+Ingredient: 0.5 cup pineapple chunks
+Ingredient: 0.5 cup green grapes
+Ingredient: 0.25 mango - peeled, seeded, and diced
+Ingredient: 0.25 cup water
+Ingredient: 0.5 cup spinach
+Ingredient: 2.0 cubes ice cubes, or as needed
+Directions: 
+Duration: 10 m
+Step: Blend kiwi, pineapple, grapes, mango, and water in a blender until smooth. Add spinach and blend again until spinach is completely integrated. Add ice and blend until ice is completely integrated.
+Nutrients: 
+Servings: 2
+Calories: 102
+Fat: 0.6
+Carbohydrates: 25.8
+Protein: 1.3
+
+
+Source: https://www.allrecipes.com/recipe/229017/kiwi-sensation/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

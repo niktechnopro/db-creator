@@ -1,0 +1,21 @@
+Title: Vanilla-Banana Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/812453.jpg
+Rating: 3.29999995231628
+Ingredients: 
+Ingredient: 2.0 bananas, broken into chunks
+Ingredient: 1.0 cup vanilla ice cream
+Ingredient: 0.5 teaspoon vanilla extract
+Ingredient: 0.5 cup fresh orange juice
+Ingredient: 1.0 cup milk
+Directions: 
+Duration: 2 m
+Step: Place banana and vanilla ice cream into a blender. Pour in vanilla extract, orange juice, and milk. Puree until thick and smooth.
+Nutrients: 
+Servings: 4
+Calories: 165
+Fat: 5.1
+Carbohydrates: 27.4
+Protein: 4.0
+
+
+Source: https://www.allrecipes.com/recipe/138929/vanilla-banana-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

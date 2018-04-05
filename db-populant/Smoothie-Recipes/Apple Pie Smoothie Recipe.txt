@@ -1,0 +1,23 @@
+Title: Apple Pie Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/250x250/895697.jpg
+Rating: 4.11999988555908
+Ingredients: 
+Ingredient: 2.0 ounce) containers vanilla yogurt
+Ingredient: 0.5 cup pumpkin pie filling
+Ingredient: 1.0 banana, broken into chunks
+Ingredient: 2.0 cups apple juice
+Ingredient: 1.0 teaspoon ground cinnamon
+Ingredient: 1.0 dash ground nutmeg
+Directions: 
+Duration: 10 m
+Step: Combine the yogurt, pumpkin pie filling, banana, apple juice, cinnamon, and nutmeg in a blender.
+Step: Blend until smooth, about 1 minute. Pour into glasses and serve.
+Nutrients: 
+Servings: 2
+Calories: 389
+Fat: 2.9
+Carbohydrates: 84.9
+Protein: 10.0
+
+
+Source: https://www.allrecipes.com/recipe/174319/apple-pie-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

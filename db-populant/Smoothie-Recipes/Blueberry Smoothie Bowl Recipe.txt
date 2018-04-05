@@ -1,0 +1,25 @@
+Title: Blueberry Smoothie Bowl Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/3946212.jpg
+Rating: 4.85714292526245
+Ingredients: 
+Ingredient: 1.0 cup frozen blueberries
+Ingredient: 0.5 banana
+Ingredient: 2.0 tablespoons water
+Ingredient: 1.0 tablespoon cashew butter
+Ingredient: 1.0 teaspoon vanilla extract
+Ingredient: 0.5 banana, sliced
+Ingredient: 1.0 tablespoon sliced almonds
+Ingredient: 1.0 tablespoon unsweetened shredded coconut
+Directions: 
+Duration: 10 m
+Step: Blend blueberries, 1/2 banana, water, cashew butter, and vanilla extract together in a blender until smooth; pour into a bowl.
+Step: Top smoothie with sliced banana, almonds, and coconut.
+Nutrients: 
+Servings: 1
+Calories: 368
+Fat: 15.6
+Carbohydrates: 55.4
+Protein: 6.8
+
+
+Source: https://www.allrecipes.com/recipe/245208/blueberry-smoothie-bowl/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

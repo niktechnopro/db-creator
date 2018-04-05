@@ -1,0 +1,21 @@
+Title: Max's Fresh Fruit Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/1003207.jpg
+Rating: 4.0
+Ingredients: 
+Ingredient: 3.0 fresh apricots, pitted and diced
+Ingredient: 1.0 banana, diced
+Ingredient: 1.0 cup milk
+Ingredient: 4.0 teaspoons white sugar
+Ingredient: 13.0 cubes  ice
+Directions: 
+Duration: 5 m
+Step: Blend the apricots, banana, milk, sugar, and ice in a blender until smooth, thick, and frosty.
+Nutrients: 
+Servings: 3
+Calories: 114
+Fat: 1.9
+Carbohydrates: 22.2
+Protein: 3.6
+
+
+Source: https://www.allrecipes.com/recipe/215119/maxs-fresh-fruit-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

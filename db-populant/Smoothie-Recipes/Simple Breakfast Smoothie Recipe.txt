@@ -1,0 +1,23 @@
+Title: Simple Breakfast Smoothie Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/2053863.jpg
+Rating: 4.19999980926514
+Ingredients: 
+Ingredient: 1.0 cup yogurt
+Ingredient: 1.0 orange, peeled and broken into sections
+Ingredient: 1.0 banana, broken into chunks
+Ingredient: 0.25 cup strawberries, or more to taste
+Ingredient: 0.25 cup ice cubes, or as needed
+Ingredient: 1.0 teaspoon vanilla extract
+Ingredient: 1.0 teaspoon ground flax seeds (optional)
+Directions: 
+Duration: 10 m
+Step: Blend yogurt, orange, banana, strawberries, ice, vanilla extract, and flax seeds together in a blender until smooth.
+Nutrients: 
+Servings: 2
+Calories: 153
+Fat: 3.0
+Carbohydrates: 24.4
+Protein: 7.6
+
+
+Source: https://www.allrecipes.com/recipe/241021/simple-breakfast-smoothie/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

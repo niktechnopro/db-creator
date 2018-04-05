@@ -1,0 +1,20 @@
+Title: Banana Berry Smoothie III Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/3214678.jpg
+Rating: 4.31914901733398
+Ingredients: 
+Ingredient: 1.0 banana, frozen and chunked
+Ingredient: 1.0 cup frozen raspberries
+Ingredient: 0.75 cup orange juice
+Ingredient: 0.25 cup vanilla yogurt
+Directions: 
+Duration: 2 m
+Step: In a blender, combine banana, raspberries, orange juice and yogurt. Blend until smooth. Pour into glasses and serve.
+Nutrients: 
+Servings: 2
+Calories: 249
+Fat: 1.0
+Carbohydrates: 60.1
+Protein: 3.7
+
+
+Source: https://www.allrecipes.com/recipe/32560/banana-berry-smoothie-iii/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

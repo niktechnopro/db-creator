@@ -1,0 +1,23 @@
+Title: Kinaja Recipe
+Image: https://images.media-allrecipes.com/userphotos/560x315/749687.jpg
+Rating: 4.0
+Ingredients: 
+Ingredient: 1.0 cup orange juice
+Ingredient: 2.0 kiwis, peeled and sliced
+Ingredient: 3.0 ripe bananas, sliced
+Ingredient: 3.0 pineapple rings
+Ingredient: 0.5 cup unsweetened pineapple juice
+Ingredient: 2.0 cups crushed ice
+Directions: 
+Duration: 0 m
+Step: In an electric blender, mix together orange juice, kiwi, bananas, pineapple, and pineapple juice until well blended. Pour the mixture into a pitcher.
+Step: Place the ice in the blender, then pour the fruit mixture over the ice. Process until the ice is blended in with the fruit juices.
+Nutrients: 
+Servings: 5
+Calories: 144
+Fat: 0.5
+Carbohydrates: 35.8
+Protein: 1.5
+
+
+Source: https://www.allrecipes.com/recipe/14139/kinaja/?internalSource=hub%20recipe&referringId=138&referringContentType=recipe%20hub

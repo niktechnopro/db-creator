@@ -19,7 +19,7 @@ const Recipes = connection.define('recipes', {
         // allowNull: false
     },
     nutrients: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
     },
     source: {
         type: Sequelize.TEXT,
