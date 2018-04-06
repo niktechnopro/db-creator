@@ -11,6 +11,23 @@ router.use(function timeLog (req, res, next) {
     console.log('Time: ', d.toString())//just to log request time
     next()
 })
+
+
+function ingridientProcessor(array, i, ingredient){
+    let tempIndex = false;
+    array.forEach((ingr, index)=>{ 
+        let lineArray = ingr.split(' ')
+        let yesno = lineArray.some((element)=>{//looking for any ingredient
+            return ingredient == element
+        })
+        if (yesno){
+            tempIndex = i;
+        }
+    })
+    return tempIndex
+}
+
+
 // define the home page route(we using handler function chaining for one route)
 router.route('/getRecipes')
     .get((req, res)=>{
@@ -20,8 +37,20 @@ router.route('/getRecipes')
         })
     })
     .post((req, res)=>{
+        let matchArray = []
         let ingredient = req.body.data;
         console.log('searching for recipe with', ingredient)
+         Recipes.findAll().then((recipes) => {
+            // let testArray = recipes.slice(0,3);
+            for (let i=0; i < recipes.length; i++){
+                let ingrIndex = ingridientProcessor(JSON.parse(recipes[i].ingredients), i, ingredient);      
+                if (ingrIndex !== false){
+                    matchArray.push(ingrIndex)
+                }
+            }
+            let target = matchArray.map((el, i) => recipes[el])
+            res.send(target)
+        })
     })
 
     .delete((req, res)=>{

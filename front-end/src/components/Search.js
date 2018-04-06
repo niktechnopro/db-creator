@@ -27,7 +27,11 @@ class Search extends Component{
 		const ingredient = document.querySelector('[name="title"]').value;
 		axios.post('http://localhost:3002/getRecipes',{
 			data: ingredient
-		}).then((response)=>console.log(response))
+		}).then((response)=>{
+			this.setState({
+          		recipes: response.data
+        	})
+		})
 	}
 
 	render(){
