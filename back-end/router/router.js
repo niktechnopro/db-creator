@@ -37,10 +37,10 @@ router.route('/getRecipes')
         })
     })
     .post((req, res)=>{
-        let matchArray = []
         let ingredient = req.body.data;
         console.log('searching for recipe with', ingredient)
-         Recipes.findAll().then((recipes) => {
+        let matchArray = [];
+        Recipes.findAll().then((recipes) => {
             // let testArray = recipes.slice(0,3);
             for (let i=0; i < recipes.length; i++){
                 let ingrIndex = ingridientProcessor(JSON.parse(recipes[i].ingredients), i, ingredient);      
@@ -48,9 +48,9 @@ router.route('/getRecipes')
                     matchArray.push(ingrIndex)
                 }
             }
-            let target = matchArray.map((el, i) => recipes[el])
+            let target = matchArray.map((el, i) => recipes[el]) 
             res.send(target)
-        })
+        }).catch(err => console.log(err))
     })
 
     .delete((req, res)=>{
