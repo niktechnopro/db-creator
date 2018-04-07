@@ -57,6 +57,16 @@ router.route('/getRecipes')
         console.log("let's delete your account")//we'll use ajax request for it
     })
 
+//handing add to favorites portion
+router.route('/addToFavorite')
+    .get((req, res)=>{
+
+    })
+    .post((req, res)=>{
+        console.log(req.body)
+        res.send('success')
+    })
+
 //registering routes info
 router.route('/register')
     .get((req, res)=>{
@@ -66,6 +76,7 @@ router.route('/register')
         //body property is available because we have a body-parser
         console.log(req.body)
 })
+
 
 router.get('/success/:name',(req, res)=>{
     console.log(req.body)

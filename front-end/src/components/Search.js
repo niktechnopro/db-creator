@@ -18,7 +18,8 @@ class Search extends Component{
       	.then((response)=>{
         	// console.log(response.data)
         this.setState({
-          	recipes: response.data
+          	recipes: response.data,
+          	message: `There are ${response.data.length} recipes in database`
         })
       })
 	}
@@ -33,7 +34,7 @@ class Search extends Component{
 		}).then((response)=>{
 			let message = this.state.message;
 			if (response.data.length != 0){
-				message = `There are ${response.data.length} results for your search,` + ' hover over recipe to see directions'
+				message = `There are ${response.data.length} results for your search`
 		    }else if(response.data.length == 0){
 		    	message = "There are no results for your search, redefine your search and try again"
 			}else{
