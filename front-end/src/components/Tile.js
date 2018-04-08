@@ -29,7 +29,7 @@ class Tile extends Component{
         }
         this.setState({
           favColor: color,
-          favText: text,
+          favText: text
         })
       }
     })  

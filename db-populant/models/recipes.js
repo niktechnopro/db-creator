@@ -1,5 +1,6 @@
 console.log('actual table')
 const Sequelize = require('sequelize');
+const Users = require('./users');
 const connection = require('../db');
 
 //this is where we actually creating table if it was not created yet
@@ -32,5 +33,6 @@ const Recipes = connection.define('recipes', {
     }
 })
 
+Recipes.belongsTo(Users);
 
 module.exports = Recipes;

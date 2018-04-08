@@ -2,18 +2,29 @@ const Sequelize = require('sequelize');
 var fs = require('fs');
 var path = require('path');
 const sequelize = require('./db')
+const Users = require('./models/users')
 const Recipes = require('./models/recipes');//loading table model
 
 var recipiesPath = path.join(__dirname + '/Smoothie-Recipes/');//creating a path to all recipies
 //reading files from Directory
 
 // creating table
-Recipes.sync({force:true})
-.then((data) => {
-	console.log('table created')
-	populate();
-});
+Users.sync({force: true})
+  .then(() => {
+    return Recipes.sync({force: true})
+  }).then((data)=>{
+  	console.log('table created');
+  	populate();
+  })
 
+
+// Recipes.sync({force:true})
+// .then((data) => {
+// 	console.log('table created')
+// 	populate();
+// });
+
+//populating table after creation
 function populate(){
 	console.log('populate is up')
 	var filesPromise = new Promise((resolve, reject)=>{
