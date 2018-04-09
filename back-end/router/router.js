@@ -77,6 +77,11 @@ router.route('/register')
         console.log(req.body)
 })
 
+router.route('/login')
+    .post((req, res)=>{
+        console.log(req.body)
+    })
+
 
 router.get('/success/:name',(req, res)=>{
     console.log(req.body)

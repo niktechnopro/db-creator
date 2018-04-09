@@ -1,7 +1,12 @@
 body{
+	padding: 0;
+	margin: 0;
 	background-color: lightblue;
 }
 
+.recipes{
+	width: 100%;
+}
 
 .element{
 	width: 460px;
@@ -67,7 +72,7 @@ ul{
 }
 
 .title{
-	font-size: 1.4rem;
+	font-size: 2rem;
 }
 
 .buttons{
@@ -83,3 +88,79 @@ ul{
 .favorite{
 	cursor: pointer;
 }
+
+.item img{
+	width: 90%;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+#navbar{
+	display: flex;
+	justify-content: space-between;
+	background-color: blue;
+	flex-direction: row;
+}
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 1rem;
+	align-items: center;
+}
+
+#me, #middle{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#middle{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	text-decoration: none;
+}
+
+
+p{
+	font-size: 2.0rem;
+	padding: 1.0rem;
+	margin: 0 0.5rem;
+	color: white;
+}
+
+#middle p:hover{
+	text-decoration: underline overline;
+	cursor: pointer;
+}
+
+.navigation p:hover{
+	text-decoration: underline overline;
+	cursor: pointer;
+}
+/*end of navbar portion*/
+
+@media only screen and (min-width : 768px) {
+	.smoothies {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	    height: 400px;
+	    width: 800px;
+	    margin: 40px;
+	}
+
+	p{
+		font-size: 3.5rem;
+		margin: 0 2.5rem;
+	}
+}
+
