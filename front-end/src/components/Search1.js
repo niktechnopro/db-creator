@@ -11,7 +11,9 @@ class Search extends Component{
 			message: '',
 			placeholder: 'search by ingredient'
 		})
+		this.handleSubmit = this.handleSubmit.bind(this)
 	}
+
 //to see all recipes
 	seeAll(){
 		axios.get('http://localhost:3002/getRecipes')
@@ -24,11 +26,9 @@ class Search extends Component{
       })
 	}
 
-//search by ingridient
-	handleSubmit(e){
-		e.preventDefault()
-		const ingredient = document.querySelector('[name="title"]').value.trim();
-		if (ingredient != ''){
+	componentDidMount(){
+		console.log(this.props)
+		let ingredient = this.props.ingredient;
 		axios.post('http://localhost:3002/getRecipes',{
 			data: ingredient
 		}).then((response)=>{
@@ -45,17 +45,60 @@ class Search extends Component{
 				message: message
 				})
 			})
-		}else{
-			this.setState({
-				placeholder: 'refine your search'
-			})
-		}
+
 	}
 
+//search by ingridient
+	// handleSubmit(e){
+	// 	e.preventDefault()
+	// 	const ingredient = document.querySelector('[name="title"]').value.trim();
+	// 	if (ingredient != ''){
+	// 	axios.post('http://localhost:3002/getRecipes',{
+	// 		data: ingredient
+	// 	}).then((response)=>{
+	// 		let message = this.state.message;
+	// 		if (response.data.length != 0){
+	// 			message = `There are ${response.data.length} results for your search`
+	// 	    }else if(response.data.length == 0){
+	// 	    	message = "There are no results for your search, redefine your search and try again"
+	// 		}else{
+	// 			message = ''
+	// 		}
+	// 		this.setState({
+	// 			recipes: response.data,
+	// 			message: message
+	// 			})
+	// 		})
+	// 	}else{
+	// 		this.setState({
+	// 			placeholder: 'refine your search'
+	// 		})
+	// 	}
+	// }
+
+	handleSubmit(ingredient){
+		axios.post('http://localhost:3002/getRecipes',{
+			data: ingredient
+		}).then((response)=>{
+			let message = this.state.message;
+			if (response.data.length != 0){
+				message = `There are ${response.data.length} results for your search`
+		    }else if(response.data.length == 0){
+		    	message = "There are no results for your search, redefine your search and try again"
+			}else{
+				message = ''
+			}
+			this.setState({
+				recipes: response.data,
+				message: message
+				})
+			})
+	}
+
+
 	render(){
-	// var studentsArray = this.state.recipes.map((recipe, index)=>{
- //      	return (<li key={index}>{recipe.title}</li>)
- //    })
+		console.log(this.props.ingredient)
+		// if(this.props.ingredient)  this.handleSubmit(this.props.ingredient)
 		return(
 			<div>
 				<h1>Click the button of your selection</h1>

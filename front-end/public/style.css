@@ -113,7 +113,7 @@ ul{
 	align-items: center;
 }
 
-#me, #middle{
+#title, #middle{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -137,6 +137,11 @@ p{
 }
 
 #middle p:hover{
+	text-decoration: underline overline;
+	cursor: pointer;
+}
+
+#title p:hover{
 	text-decoration: underline overline;
 	cursor: pointer;
 }

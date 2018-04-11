@@ -12,11 +12,12 @@ class MyNavbar extends Component {
 		})
 	}
 
-	handleSubmit(e){
+	searchByIngedient(e){
 		e.preventDefault();
 		const ingredient = document.querySelector('[name="ingredient"]').value.trim();
 		if (ingredient != ''){
-			this.props.ingredientSearch(ingredient);
+			document.querySelector('form').reset(); //to reset the form
+			this.props.ingrSearch(ingredient);
 		}else{
 			this.setState({
 				placeholder: 'refine your search'
@@ -24,25 +25,25 @@ class MyNavbar extends Component {
 		}
 	}
 
-		render() {
-		return (
-			<div id="navbar">
-				<nav id="me">
-					<Link to="/" style={{ textDecoration: 'none' }}><p>Smoothie Recipes</p></Link>
-				</nav>
-				<nav id="middle">
-					<Link to="/allrecipes" style={{ textDecoration: 'none' }}><p>See All Recipes</p></Link>
-					<form onSubmit={this.handleSubmit.bind(this)}>
-						<input placeholder={this.state.placeholder} name="ingredient" onChange={this.onChange} />
-						<button type="submit" className="btn">find by title</button>
-			        </form>
-				</nav>
-				<nav className="navigation">
-					<p>Login</p>
-					<p>Register</p>
-				</nav>
-			</div>
-		);
+	render() {
+	return (
+		<div id="navbar">
+			<nav id="title">
+				<p onClick = {()=>{this.props.backHome()}}>Smoothie Recipes</p>
+			</nav>
+			<nav id="middle">
+				<p onClick = {()=>{this.props.ingrSearch('showAll')}}>See All Recipes</p>
+				<form onSubmit={this.searchByIngedient.bind(this)}>
+					<input placeholder={this.state.placeholder} name="ingredient" />
+					<button type="submit" className="btn">find by title</button>
+		        </form>
+			</nav>
+			<nav className="navigation">
+				<p>Login</p>
+				<p>Register</p>
+			</nav>
+		</div>
+	);
   }
 }
 
