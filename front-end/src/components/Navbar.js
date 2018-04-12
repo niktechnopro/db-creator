@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import axios from 'axios';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem, FormGroup, FormControl, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -29,7 +28,7 @@ class MyNavbar extends Component {
 	return (
 		<div id="navbar">
 			<nav id="title">
-				<p onClick = {()=>{this.props.backHome()}}>Smoothie Recipes</p>
+				<Link to="/" style={{ textDecoration: 'none' }}><p>Smoothie Recipes</p></Link>
 			</nav>
 			<nav id="middle">
 				<p onClick = {()=>{this.props.ingrSearch('showAll')}}>See All Recipes</p>
@@ -39,8 +38,8 @@ class MyNavbar extends Component {
 		        </form>
 			</nav>
 			<nav className="navigation">
-				<p>Login</p>
-				<p>Register</p>
+				<Link to="/login" style={{ textDecoration: 'none' }}><p>Login</p></Link>
+				<Link to="/register" style={{ textDecoration: 'none' }}><p>Register</p></Link>
 			</nav>
 		</div>
 	);
@@ -48,3 +47,4 @@ class MyNavbar extends Component {
 }
 
 export default MyNavbar;
+<p onClick = {()=>{this.props.backHome()}}>Smoothie Recipes</p>

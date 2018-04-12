@@ -4,7 +4,7 @@ var router = express.Router();
 const passport = require('passport');
 // const Users = require('../models/users');//loading table model
 const Recipes = require('../models/recipes')
-console.log(Recipes)
+const Users = require('../models/users')
 // middleware that is specific to this router
 router.use(function timeLog (req, res, next) {
     let d = new Date();
@@ -69,17 +69,66 @@ router.route('/addToFavorite')
 
 //registering routes info
 router.route('/register')
-    .get((req, res)=>{
-        console.log('serving register page');
-    })
     .post((req, res)=>{
         //body property is available because we have a body-parser
-        console.log(req.body)
+        let user = req.body.user;
+        let email = req.body.email;
+        let password = req.body.password;
+        console.log('reading from register form: ', user, email, password)
+        Users.findOne({//veryfies if user already exists, before creating an entry
+            where: { email: email}, 
+        }).then(result => {
+            console.log('then in register post', result)
+            if (result === null){
+                Users.create({
+                    email: email,
+                    userName: user,
+                    password: password
+                }).then(result => {
+                    console.log('creating user', result)
+                    res.json({
+                        result: 'success'
+                    })
+                }).catch(error => {
+                    console.log('catch error', error)
+                })
+            }else{
+                res.json({
+                    result: 'your email already in database - login'
+                })
+            }
+        }).catch(result => {
+            res.json({
+                result: 'something went wrong, try again'  
+            }) 
+        })
 })
 
-router.route('/login')
+router.route('/login') //handles login
     .post((req, res)=>{
         console.log(req.body)
+        let email = req.body.email;
+        let password = req.body.password;
+        Users.findOne({
+            where:{
+                email: email,
+                password: password
+            }
+        }).then(result => {
+            console.log('result', result)
+            if (result){ //if result exist
+                res.json({
+                    login: 'success'
+                })
+            }else{ //if result = null
+                res.json({
+                    login: 'badlogin'
+                })
+            }     
+        }).catch(error=>{
+            // res.status(400).send('error') - this is just to send error
+            console.log(error)
+        })
     })
 
 

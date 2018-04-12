@@ -7,7 +7,7 @@ const Recipes = require('./recipes');
 const Users = connection.define('user', {
 	userID:{
 		type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: true,
 	},
     email: {
         type: Sequelize.STRING,
