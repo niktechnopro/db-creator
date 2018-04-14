@@ -136,10 +136,10 @@ p{
 	color: white;
 }
 
-#middle p:hover{
+/*#middle p:hover{
 	text-decoration: underline overline;
 	cursor: pointer;
-}
+}*/
 
 #title p:hover{
 	text-decoration: underline overline;
@@ -149,6 +149,14 @@ p{
 .navigation p:hover{
 	text-decoration: underline overline;
 	cursor: pointer;
+}
+
+.search_wrapper>h1{
+	color: green;
+}
+
+.offset{
+	margin-top: 9rem;
 }
 /*end of navbar portion*/
 

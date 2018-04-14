@@ -63,7 +63,7 @@ router.route('/addToFavorite')
 
     })
     .post((req, res)=>{
-        console.log(req.body)
+        console.log(req.body.data)
         res.send('success')
     })
 
@@ -71,10 +71,10 @@ router.route('/addToFavorite')
 router.route('/register')
     .post((req, res)=>{
         //body property is available because we have a body-parser
-        let user = req.body.user;
+        let username = req.body.username;
         let email = req.body.email;
         let password = req.body.password;
-        console.log('reading from register form: ', user, email, password)
+        console.log('reading from register form: ', username, email, password)
         Users.findOne({//veryfies if user already exists, before creating an entry
             where: { email: email}, 
         }).then(result => {
@@ -82,10 +82,9 @@ router.route('/register')
             if (result === null){
                 Users.create({
                     email: email,
-                    userName: user,
+                    userName: username,
                     password: password
                 }).then(result => {
-                    console.log('creating user', result)
                     res.json({
                         result: 'success'
                     })
@@ -94,7 +93,7 @@ router.route('/register')
                 })
             }else{
                 res.json({
-                    result: 'your email already in database - login'
+                    result: 'alreadyIn'
                 })
             }
         }).catch(result => {
@@ -118,6 +117,8 @@ router.route('/login') //handles login
             console.log('result', result)
             if (result){ //if result exist
                 res.json({
+                    username: result.userName,
+                    email: result.email,
                     login: 'success'
                 })
             }else{ //if result = null

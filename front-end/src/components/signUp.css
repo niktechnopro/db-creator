@@ -1,0 +1,40 @@
+@media all and (min-width: 480px) {
+  .signUp {
+    padding: 3rem 0;
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 42rem;
+    margin: 0 auto;
+    background: url("../images/smoothies.jpg");
+  }
+
+  .signUp form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+	
+	::-webkit-input-placeholder {
+   		text-align: center;
+	}
+
+}
+
+h1{
+  color: white;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.googleface{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.media{
+	width: 320px;
+}
+
+.font{
+	font-size: 2.5rem;
+}

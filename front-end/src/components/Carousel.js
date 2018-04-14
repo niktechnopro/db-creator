@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem, FormGroup, FormControl, Button, Carousel } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 
 class Carousels extends Component {
   render() {

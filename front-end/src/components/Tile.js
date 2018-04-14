@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+const API = 'http://localhost:3002';
 
 class Tile extends Component{
   constructor(){
@@ -12,15 +13,15 @@ class Tile extends Component{
     this.addToFavorite = this.addToFavorite.bind(this)
   }
 
-  addToFavorite(id){
-    console.log(id)
+  addToFavorite(user, id){
+    let data ={user : user, id: id}
     let text = '';
     let color;
-    axios.post('http://localhost:3002/addToFavorite',{
-      data: id
+    axios.post(`${API}/addToFavorite`,{
+      data: data
     }).then((response)=>{
-      if (response.data = "success"){
-        if (this.state.favText == "Remove From Favorites"){
+      if (response.data === "success"){
+        if (this.state.favText === "Remove From Favorites"){
           text = "Add To Favorites";
           color = 'lightgreen';
         }else{
@@ -37,16 +38,17 @@ class Tile extends Component{
 
 
 	render(){
+    console.log(this.props)
 		let recipe = this.props.recipe;
     // console.log(recipe)
-		let ingredients = JSON.parse(recipe.ingredients);
+		// let ingredients = JSON.parse(recipe.ingredients);
 		let directions = Object.entries(JSON.parse(recipe.directions));
-		let nutrients = Object.entries(JSON.parse(recipe.nutrients));//this returns 
+		// let nutrients = Object.entries(JSON.parse(recipe.nutrients));//this returns 
 		// array of arrays made up from key/value pairs
 		// console.log(ingredients)
-    let ingredient = ingredients.map((item, index)=>{
-      return <li>{item}</li>
-    })
+    // let ingredient = ingredients.map((item, index)=>{
+    //   return <li>{item}</li>
+    // })
 		return(
       <div className="row">
         	<div className="title">{recipe.title}</div>
@@ -55,12 +57,12 @@ class Tile extends Component{
                 <h3>Rating : {(Number(recipe.rating)).toFixed(2)}</h3>
                 <button className="favorite" 
                 style = {{backgroundColor: this.state.favColor}}
-                onClick={()=>this.addToFavorite(recipe.id)}>
+                onClick={()=>this.addToFavorite(this.props.user, recipe.id)}>
                 {this.state.favText}</button>
             	</div>
             <main className="mainContainer">
               <div className="leftContainer">
-                	<div className="col s2 image"><img className="image" src={recipe.image} alt="recipe picture" /></div>
+                	<div className="col s2 image"><img className="image" src={recipe.image} /></div>
               </div>
               <div className="rightContainer">
                 <h3>Preparation : {directions[0][1]}in</h3>

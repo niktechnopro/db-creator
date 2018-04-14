@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.view_area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: -8rem;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 1s linear;
   height: 80px;
