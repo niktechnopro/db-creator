@@ -10,30 +10,37 @@ class Tile extends Component{
       favColor: 'lightgreen',
       favText: 'Add To Favorites'
     })
-    this.addToFavorite = this.addToFavorite.bind(this)
+    this.myFavorites = this.myFavorites.bind(this)
   }
 
-  addToFavorite(user, id){
+  myFavorites(user, id){
+    console.log(user, id)
     let data ={user : user, id: id}
-    let text = '';
-    let color;
-    axios.post(`${API}/addToFavorite`,{
-      data: data
-    }).then((response)=>{
-      if (response.data === "success"){
-        if (this.state.favText === "Remove From Favorites"){
-          text = "Add To Favorites";
-          color = 'lightgreen';
-        }else{
-          text = "Remove From Favorites";
-          color = 'red';
+    if (this.state.favText === 'Add To Favorites'){
+      axios.post(`${API}/addToFavorite`,{
+        data: data
+      }).then((response)=>{
+        console.log(response)
+        if (response.data.result === 'success'){
+          this.setState({
+            favColor: "red",
+            favText: "Remove From Favorites"
+          })
         }
-        this.setState({
-          favColor: color,
-          favText: text
-        })
-      }
-    })  
+      })
+    }else if(this.state.favText === 'Remove From Favorites'){
+      axios.post(`${API}/removeFromFavorites`,{
+        data: data
+      }).then((response)=>{
+        console.log(response)
+        if (response.data.result === 'success'){
+          this.setState({
+            favColor: "lightgreen",
+            favText: "Add To Favorites"
+          })
+        }
+      })
+    }
   }
 
 
@@ -57,7 +64,7 @@ class Tile extends Component{
                 <h3>Rating : {(Number(recipe.rating)).toFixed(2)}</h3>
                 <button className="favorite" 
                 style = {{backgroundColor: this.state.favColor}}
-                onClick={()=>this.addToFavorite(this.props.user, recipe.id)}>
+                onClick={()=>this.myFavorites(this.props.user, recipe.id)}>
                 {this.state.favText}</button>
             	</div>
             <main className="mainContainer">

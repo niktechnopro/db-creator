@@ -49,7 +49,7 @@ class App extends Component {
         		})
       		})
       	}else if(ingredient === 'favorites'){
-      		console.log('retrieve fovorites')
+      		console.log('retrieve favorites')
       	}else{
 			axios.post(`${API}/getRecipes`,{
 				data: ingredient

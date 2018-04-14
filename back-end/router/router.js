@@ -59,18 +59,75 @@ router.route('/getRecipes')
 
 //handing add to favorites portion
 router.route('/addToFavorite')
-    .get((req, res)=>{
-
-    })
     .post((req, res)=>{
         console.log(req.body.data)
-        res.send('success')
+        let email = req.body.data.user;
+        let recipeId = req.body.data.id;
+        Users.findOne({//first let's pull favorites for this user
+            attributes: ['favorites'],//pulling favorites from database
+            where: {
+                email: email
+            }
+        }).then((result) => {
+            console.log('user: ', email, 'has favorites: ', result.favorites)
+            if (result){//if result exists - meaning user is logged in
+                let favorite = JSON.parse(result.favorites);
+                favorite.push(recipeId);
+                Users.update(//updating the favorites array
+                    {favorites: JSON.stringify(favorite)},
+                    {where: {email: email}}
+                ).then((result) => {
+                    res.json({
+                        result: 'success'
+                    })
+                })
+            }else{
+                console.log('login to use Favorites')
+            }
+        })
     })
+
+
+//handing remove from favorites portion
+router.route('/removeFromFavorites')
+    .post((req, res)=>{
+        console.log(req.body.data)
+        let email = req.body.data.user;
+        let recipeId = req.body.data.id;
+        console.log('remove recipeID: ', recipeId, 'with: ', email)
+        Users.findOne({//first let's pull favorites for this user
+            attributes: ['favorites'],//pulling favorites from database
+            where: {
+                email: email
+            }
+        }).then((result) => {
+            if (result){//if result exists - meaning user is logged in
+                let favorite = JSON.parse(result.favorites);
+                // let's find position of recipeId in our favorites array and remove the element
+                let idx = favorite.indexOf(recipeId);
+                favorite.splice(idx, 1);//removes our index
+                Users.update(//updating the favorites array
+                    {favorites: JSON.stringify(favorite)},
+                    {where: {email: email}}
+                ).then((result) => {
+                    res.json({
+                        result: 'success'
+                    })
+                })
+            }else{
+                console.log('login to use Favorites')
+            }
+        })
+    })
+
 
 //registering routes info
 router.route('/register')
     .post((req, res)=>{
         //body property is available because we have a body-parser
+        let favorite = new Array();
+        let favorites = JSON.stringify(favorite);
+        console.log(favorites)
         let username = req.body.username;
         let email = req.body.email;
         let password = req.body.password;
@@ -83,7 +140,8 @@ router.route('/register')
                 Users.create({
                     email: email,
                     userName: username,
-                    password: password
+                    password: password,
+                    favorites: favorites
                 }).then(result => {
                     res.json({
                         result: 'success'
