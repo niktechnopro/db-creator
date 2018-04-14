@@ -89,6 +89,19 @@ router.route('/addToFavorite')
     })
 
 
+
+
+function createFavorites(favarr){
+    var element;
+    const favs = favarr.map((recipeIndx, index)=>{//returns array of promises
+        return Recipes.findOne(
+            {where: {id: recipeIndx}}
+        )
+    })
+    return Promise.all(favs).then(values => values);
+}
+
+
 //handing remove from favorites portion
 router.route('/removeFromFavorites')
     .post((req, res)=>{
@@ -133,17 +146,10 @@ router.route('/favorites')
                 }
             }).then((result) => {
                 return JSON.parse(result.favorites);//converting back to normal array
-            }).then((favorites) => {
-                   return favArray = favorites.map((recipeId, index)=>{
-                        Recipes.findOne({
-                            where: {
-                                id: recipeId
-                            }
-                        }).then((result) => {
-                            return result
-                        })
-                    }) 
-                }).then(result => console.log('result ', result))
+            }).then((favarr) => {
+                    let favorites = createFavorites(favarr)
+                    favorites.then(el => res.send(el))    
+                })
             }
         })
 

@@ -36,7 +36,7 @@ class Login extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    let username = this.state.username;
+    let username = this.state.username.charAt(0).toUpperCase()+this.state.username.slice(1);//to make first letter is upper case
     let email = this.state.email;
     let password = this.state.password1;
     console.log(username, email, password);

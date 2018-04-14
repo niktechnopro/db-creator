@@ -11,7 +11,8 @@ class Search extends Component{
 		this.state = ({
 			recipes: [],
 			message: '',
-			placeholder: 'search by ingredient'
+			placeholder: 'search by ingredient',
+			selected: false
 		})
 	}
 
@@ -25,11 +26,11 @@ class Search extends Component{
 				data: email
 			})
       		.then((response)=>{
-      			console.log(response)
-   //      	this.setState({
-   //        		recipes: response.data,
-   //        		message: `There are ${response.data.length} recipes in database`
-   //      		})
+      		console.log(response)
+        	this.setState({
+          		recipes: response.data,
+          		message: `You selected ${response.data.length} recipes as your favorites`
+        		})
 			})
 		}else{
 			axios.get(`${API}/getRecipes`)
@@ -89,7 +90,7 @@ class Search extends Component{
 						{this.state.recipes.map((recipe, index)=>{
 							return (
 							<div className = "element" key={index}>
-								<Tile recipe = {recipe} user = {useremail} />
+								<Tile recipe = {recipe} user = {useremail} selected={this.state.selected} />
 							</div>
 							)
 						})}

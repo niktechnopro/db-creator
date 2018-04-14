@@ -8,7 +8,8 @@ class Tile extends Component{
     this.state = ({
       favorites: [],
       favColor: 'lightgreen',
-      favText: 'Add To Favorites'
+      favText: 'Add To Favorites',
+      isAuthenticated: false
     })
     this.myFavorites = this.myFavorites.bind(this)
   }
@@ -62,10 +63,11 @@ class Tile extends Component{
           <div className='recipeWrapper'>
               <div className="recipeHeader">
                 <h3>Rating : {(Number(recipe.rating)).toFixed(2)}</h3>
+                {this.state.isAuthenticated && 
                 <button className="favorite" 
                 style = {{backgroundColor: this.state.favColor}}
                 onClick={()=>this.myFavorites(this.props.user, recipe.id)}>
-                {this.state.favText}</button>
+                {this.state.favText}</button>}
             	</div>
             <main className="mainContainer">
               <div className="leftContainer">
