@@ -20,6 +20,7 @@ class App extends Component {
 			recipes: [],
 			username: '',
 			email: '',
+			favorites: '',
 			isAuthenticate: false
 		})
 	}
@@ -37,40 +38,13 @@ class App extends Component {
 		}
 	}
 
-	searchTerm(ingredient){
-		console.log(ingredient); //ingredient passed from Navbar
-		if (ingredient === 'showAll'){//to show all recipes
-			axios.get(`${API}/getRecipes`)
-      		.then((response)=>{
-        	// console.log(response.data)
-        	this.setState({
-          		recipes: response.data,
-          		message: `There are ${response.data.length} recipes in database`
-        		})
-      		})
-      	}else if(ingredient === 'favorites'){
-      		console.log('retrieve favorites')
-      	}else{
-			axios.post(`${API}/getRecipes`,{
-				data: ingredient
-			}).then((response)=>{
-				let message = this.state.message;
-				if (response.data.length !== 0){
-					message = `There are ${response.data.length} results for '${ingredient}'`
-			    }else if(response.data.length === 0){
-			    	message = "There are no results for your search, redefine your search and try again"
-				}else{
-					message = ''
-				}
-				this.setState({
-					recipes: response.data,
-					message: message
-					})
-				})
-		}
+	myFavorites(info){
+		console.log('my favorites fired up ', info); //ingredient passed from Navbar
+		this.setState({
+			favorites: info
+		})
 	}
 
-	//spread - makes an array of arguments passed to function
 
 	userHandler(info){
 		console.log('userHandler', info);
@@ -91,7 +65,8 @@ class App extends Component {
 	return (
 		<Router>
     	<div className="App">
-      		<MyNavbar ingrSearch = {this.searchTerm.bind(this)} isUser={this.state.isAuthenticate} userName={this.state.username} />
+      		<MyNavbar ingrSearch = {this.myFavorites.bind(this)} isUser={this.state.isAuthenticate} userName={this.state.username} />
+	        {(this.state.favorites) && <Search favorites = {this.state.favorites} email = {this.state.email} /> }
 	        <div className="container-fluid view_area">
 		        <Route path="/login" component={() => (<Login user={this.userHandler.bind(this)} />)} />
 		        <Route path="/register" component={signUp} />

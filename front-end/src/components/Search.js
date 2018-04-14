@@ -14,17 +14,33 @@ class Search extends Component{
 			placeholder: 'search by ingredient'
 		})
 	}
-//to see all recipes
 
+//to see all recipes
 	componentDidMount(){
-		axios.get(`${API}/getRecipes`)
-      	.then((response)=>{
-        	// console.log(response.data)
-        this.setState({
-          	recipes: response.data,
-          	message: `There are ${response.data.length} recipes in database`
-        })
-      })
+		console.log('this.props: ', this.props)
+		let email = this.props.email;
+		if (this.props.favorites === 'favorites'){
+			console.log('retrieving favorites with ', email)
+			axios.post(`${API}/favorites`, {
+				data: email
+			})
+      		.then((response)=>{
+      			console.log(response)
+   //      	this.setState({
+   //        		recipes: response.data,
+   //        		message: `There are ${response.data.length} recipes in database`
+   //      		})
+			})
+		}else{
+			axios.get(`${API}/getRecipes`)
+	      	.then((response)=>{
+	        	// console.log(response.data)
+	        this.setState({
+	          	recipes: response.data,
+	          	message: `There are ${response.data.length} recipes in database`
+	        	})
+      		})
+	    }
 	}
 
 //search by ingridient

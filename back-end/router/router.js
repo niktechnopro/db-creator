@@ -28,6 +28,7 @@ function ingridientProcessor(array, i, ingredient){
 }
 
 
+
 // define the home page route(we using handler function chaining for one route)
 router.route('/getRecipes')
     .get((req, res)=>{
@@ -120,6 +121,31 @@ router.route('/removeFromFavorites')
         })
     })
 
+//to retrieve recipes for specific user
+router.route('/favorites')
+    .post((req, res)=>{
+        console.log('we are in favorites route', req.body)
+        if(req.body.data){//email
+            Users.findOne({//first let's pull favorites for this user
+                attributes: ['favorites'],//pulling favorites from database
+                where: {
+                    email: req.body.data
+                }
+            }).then((result) => {
+                return JSON.parse(result.favorites);//converting back to normal array
+            }).then((favorites) => {
+                   return favArray = favorites.map((recipeId, index)=>{
+                        Recipes.findOne({
+                            where: {
+                                id: recipeId
+                            }
+                        }).then((result) => {
+                            return result
+                        })
+                    }) 
+                }).then(result => console.log('result ', result))
+            }
+        })
 
 //registering routes info
 router.route('/register')
@@ -172,7 +198,7 @@ router.route('/login') //handles login
                 password: password
             }
         }).then(result => {
-            console.log('result', result)
+            // console.log('result', result)
             if (result){ //if result exist
                 res.json({
                     username: result.userName,
