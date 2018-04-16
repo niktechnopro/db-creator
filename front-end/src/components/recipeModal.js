@@ -27,12 +27,12 @@ const RecipeModal = (props) => {
 		<div className="modalTitle">{recipe.title}</div>
           	<div className='modalWrapper'>
               	<div className="modalHeader">
-                	<h3>Rating for this recipe:</h3>
+                	<h3>Rating for this recipe: {(Number(recipe.rating)).toFixed(2)}</h3>
                 	<h3>Preparation : {directions[0][1]}in</h3>
             	</div>
             	<main className="modalMainContainer">
               		<div className="modalLeftContainer">
-                		<div><img className="modalImage" src=" https://images.media-allrecipes.com/userphotos/560x315/2004499.jpg" /></div>
+                		<div><img className="modalImage" src={recipe.image} /></div>
               		</div>
               		<div className="modalRightContainer">
               			<div className="modalSteps">{directions[1][1]}</div>
