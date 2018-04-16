@@ -74,9 +74,9 @@ class Login extends Component {
 
   render() {
 
-    if (this.state.isRegistered){
-        this.props.history.push('/login')
-    }
+    // if (this.state.isRegistered){
+    //     this.props.history.push('/login')
+    // }
 
     return (
       <div className="signUp">
@@ -130,6 +130,7 @@ class Login extends Component {
             Register
           </Button>
         </form>
+        {this.state.isRegistered && <Redirect to="/login" />}
       </div>
     );
   }

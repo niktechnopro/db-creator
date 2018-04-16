@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button } from "react-bootstrap";
 import Tile from './Tile';
 import axios from 'axios';
+import RecipeModal from './recipeModal';
 const API = 'http://localhost:3002';
 
 
@@ -12,8 +13,12 @@ class Search extends Component{
 			recipes: [],
 			message: '',
 			placeholder: 'search by ingredient',
-			selected: false
+			selected: false,
+			modalStatus: false,
+			recipe: ''
 		})
+		this.closeModal = this.closeModal.bind(this)
+		this.openModal = this.openModal.bind(this)
 	}
 
 //to see all recipes
@@ -72,9 +77,25 @@ class Search extends Component{
 		}
 	}
 
+	openModal(info){
+		console.log('open modal', info);
+		this.setState({
+			modalStatus: true,
+			recipe: info
+		})
+	}
+
+	closeModal(){
+		console.log('close modal')
+		this.setState({
+			modalStatus: false
+		})
+	}
+
 
 	render(){
 		var useremail = this.props.useremail;
+		console.log(this.props)
 		return(
 			<div className="offset">
 				<h1>Let's find you a Smoothie Recipe</h1>
@@ -90,12 +111,18 @@ class Search extends Component{
 						{this.state.recipes.map((recipe, index)=>{
 							return (
 							<div className = "element" key={index}>
-								<Tile recipe = {recipe} user = {useremail} selected={this.state.selected} />
+								<Tile 
+								open = {this.openModal}
+								recipe = {recipe} 
+								user = {useremail} 
+								selected={this.state.selected}
+								/>
 							</div>
 							)
 						})}
 					</ul>
 				</div>	
+				<RecipeModal open = {this.state.modalStatus} recipe = {this.state.recipe} close = {this.closeModal} />
 			</div>
 		)
 	}

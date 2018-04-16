@@ -18,7 +18,7 @@ class MyNavbar extends Component {
 		<button type="submit" className="btn">find by title</button>
     </form>
 </nav>
-*/	console.log(this.props)
+*/
 	return (
 		<div id="navbar">
 			<nav id="title">

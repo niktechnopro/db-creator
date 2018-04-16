@@ -44,7 +44,6 @@ class Tile extends Component{
     }
   }
 
-
 	render(){
     console.log(this.props)
 		let recipe = this.props.recipe;
@@ -58,7 +57,7 @@ class Tile extends Component{
     //   return <li>{item}</li>
     // })
 		return(
-      <div className="row">
+      <div onClick={()=>{this.props.open(recipe)}} className="row">
         	<div className="title">{recipe.title}</div>
           <div className='recipeWrapper'>
               <div className="recipeHeader">

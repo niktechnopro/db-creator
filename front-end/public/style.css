@@ -13,6 +13,7 @@ body{
 	display: inline-block;
 	margin: 0 auto;
 	margin: 0.5rem;
+	cursor: pointer;
 }
 
 ul{
@@ -99,6 +100,7 @@ ul{
 	margin-bottom: 0;
 }
 #navbar{
+	position: sticky;
 	display: flex;
 	justify-content: space-between;
 	background-color: blue;
@@ -154,11 +156,79 @@ p{
 .search_wrapper>h1{
 	color: green;
 }
-
-.offset{
-	margin-top: 9rem;
-}
 /*end of navbar portion*/
+
+/*modal portion*/
+.modalTitle{
+	font-size: 6rem;
+	text-align: center;
+}
+
+.modalWrapper{
+	width: 100%;
+	min-height: 70vh;
+	border: 5px solid black;
+	margin: 0 auto;
+}
+
+.modalHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 1.5rem;
+}
+
+.modalHeader>h3{
+	font-size: 4rem;
+}
+
+.modalMainContainer{
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 0.1rem;
+	align-content: space-around;
+	min-height: 80%;
+}
+
+.modalLeftContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+	justify-content: center;
+	margin: 0 1.5rem 0 1.5rem;
+}
+
+.modalRightContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 0 0.5rem;
+	text-align: justify;
+}
+
+.modalRightContainer h3{
+	font-size: 4rem;
+}
+
+.modalContainer h3{
+	margin: 0;
+}
+
+.modalImage{
+	width: auto;
+}
+
+.modalSteps{
+	font-size: 3rem;
+	margin-left: 0.5rem;
+}
+
+.modalIngredients{
+	font-size: 2.5rem;
+	margin-left: 2.5rem;
+}
+/*end of modal portion*/
 
 @media only screen and (min-width : 768px) {
 	.smoothies {
