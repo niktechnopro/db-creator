@@ -15,7 +15,7 @@ const RecipeModal = (props) => {
 		// array of arrays made up from key/value pairs
 			console.log(ingredients)
 	    var ingredient = ingredients.map((item, index)=>{
-	       		return <li>{item}</li>
+	       		return <li key={index}>{item}</li>
 	     	})
 	return(
 		<Modal
