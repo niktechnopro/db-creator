@@ -18,7 +18,7 @@ const RecipeModal = (props) => {
 	       		return <li key={index}>{item}</li>
 	     	})
 	    var nutrient = nutrients.map((item, index) => {
-	    	return <li key={index}>{item[0]} : {item[1]}</li>
+	    	return <li key={index}>{item[0]}: {item[1]}</li>
 	    })
 	return(
 		<Modal
@@ -45,7 +45,7 @@ const RecipeModal = (props) => {
 	                		</ul>
 	                	</div>
 	                	<div className="rightSide">
-	                		<div className="modalSteps">Nutrients :</div>
+	                		<div className="modalSteps">Nutrients:</div>
 	                		<ul className="modalIngredients">
 	                			{nutrient}
 	                		</ul>
@@ -54,6 +54,7 @@ const RecipeModal = (props) => {
            		</main>
            		<div className="modalFooter">
                 	<div className="modalSteps">{directions[1][1]}</div>
+                	{/*<div className="modalSteps">Source : {recipe.source}</div>*/}
             	</div>
         	</div>
 		<button onClick={props.close}>close modal</button>

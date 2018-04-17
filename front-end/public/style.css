@@ -202,7 +202,7 @@ p{
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin: 0 0.5rem;
 	text-align: justify;
 }
@@ -217,6 +217,9 @@ p{
 
 .modalImage{
 	width: 100%;
+	padding: 0.5rem;
+	border: 2px solid lightblue;
+	border-radius: 5px;
 }
 
 .modalSteps{
@@ -226,16 +229,18 @@ p{
 
 .modalIngredients{
 	font-size: 2.5rem;
-	margin-left: 2.5rem;
+	margin-left: 3.5rem;
 }
 
 .modalFooter{
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .rightSide{
-	margin-left: 1rem;
+	margin-left: 3rem;
 }
 /*end of modal portion*/
 
