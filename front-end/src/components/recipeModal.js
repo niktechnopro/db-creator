@@ -13,10 +13,13 @@ const RecipeModal = (props) => {
 		let directions = Object.entries(JSON.parse(recipe.directions));
 		let nutrients = Object.entries(JSON.parse(recipe.nutrients));//this returns 
 		// array of arrays made up from key/value pairs
-			console.log(ingredients)
+		console.log(nutrients)
 	    var ingredient = ingredients.map((item, index)=>{
 	       		return <li key={index}>{item}</li>
 	     	})
+	    var nutrient = nutrients.map((item, index) => {
+	    	return <li key={index}>{item[0]} : {item[1]}</li>
+	    })
 	return(
 		<Modal
 		isOpen = {props.open}
@@ -32,18 +35,28 @@ const RecipeModal = (props) => {
             	</div>
             	<main className="modalMainContainer">
               		<div className="modalLeftContainer">
-                		<div><img className="modalImage" src={recipe.image} /></div>
+                		<img className="modalImage" src={recipe.image} />
               		</div>
               		<div className="modalRightContainer">
-              			<div className="modalSteps">{directions[1][1]}</div>
-              			<div className="modalSteps">Ingredients:</div>
-                		<ul className="modalIngredients">
-                			{ingredient}
-                		</ul>
+              			<div className="leftSide">
+	              			<div className="modalSteps">Ingredients:</div>
+	                		<ul className="modalIngredients">
+	                			{ingredient}
+	                		</ul>
+	                	</div>
+	                	<div className="rightSide">
+	                		<div className="modalSteps">Nutrients :</div>
+	                		<ul className="modalIngredients">
+	                			{nutrient}
+	                		</ul>
+	                	</div>
               		</div>
            		</main>
+           		<div className="modalFooter">
+                	<div className="modalSteps">{directions[1][1]}</div>
+            	</div>
         	</div>
-		<button onClick={props.close}>close damn modal</button>
+		<button onClick={props.close}>close modal</button>
 		</Modal>
 		)
 	}else{

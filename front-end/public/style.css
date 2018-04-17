@@ -166,7 +166,7 @@ p{
 
 .modalWrapper{
 	width: 100%;
-	min-height: 70vh;
+	min-height: auto;
 	border: 5px solid black;
 	margin: 0 auto;
 }
@@ -200,9 +200,9 @@ p{
 
 .modalRightContainer{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: flex-start;
-	justify-content: center;
+	justify-content: space-around;
 	margin: 0 0.5rem;
 	text-align: justify;
 }
@@ -216,17 +216,26 @@ p{
 }
 
 .modalImage{
-	width: auto;
+	width: 100%;
 }
 
 .modalSteps{
 	font-size: 3rem;
-	margin-left: 0.5rem;
+	margin: 1.5rem;
 }
 
 .modalIngredients{
 	font-size: 2.5rem;
 	margin-left: 2.5rem;
+}
+
+.modalFooter{
+	display: flex;
+	justify-content: center;
+}
+
+.rightSide{
+	margin-left: 1rem;
 }
 /*end of modal portion*/
 

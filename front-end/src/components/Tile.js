@@ -45,7 +45,7 @@ class Tile extends Component{
   }
 
 	render(){
-    console.log(this.props)
+    // console.log(this.props)
 		let recipe = this.props.recipe;
     // console.log(recipe)
 		// let ingredients = JSON.parse(recipe.ingredients);
