@@ -31,8 +31,7 @@ class MyNavbar extends Component {
 				{(!this.props.isUser) && <Link to="/login" style={{ textDecoration: 'none' }}><p>Login</p></Link>}
 				{(this.props.isUser) ? 
 					<Link to="/favorites" style={{ textDecoration: 'none' }}><p onClick={()=>{this.props.ingrSearch('favorites')}}>Favorites</p></Link> :
-					<Link to="/register" style={{ textDecoration: 'none' }}><p>Sign Up</p></Link>
-					
+					<Link to="/register" style={{ textDecoration: 'none' }}><p>Sign Up</p></Link>	
 				}
 			</nav>
 		</div>

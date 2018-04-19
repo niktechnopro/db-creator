@@ -15,10 +15,36 @@ class Search extends Component{
 			placeholder: 'search by ingredient',
 			selected: false,
 			modalStatus: false,
-			recipe: ''
+			recipe: '',
+			favs: {
+				favText: 'Add To Favorites',
+				favColor: 'lightgreen'
+			},
+			auth: true
 		})
-		this.closeModal = this.closeModal.bind(this)
-		this.openModal = this.openModal.bind(this)
+		this.closeModal = this.closeModal.bind(this);
+		this.openModal = this.openModal.bind(this);
+		this.myFavorite = this.myFavorite.bind(this);
+	}
+
+	//to manage favorite recipe
+	myFavorite(favText){
+		console.log("myFavorite", favText)
+		if(favText === "Add To Favorites"){
+			this.setState({
+				favs: {
+					favText: 'Remove From Favorites',
+					favColor: 'red'
+				}
+			})
+		}else{
+			this.setState({
+				favs: {
+					favText: 'Add To Favorites',
+					favColor: 'lightgreen'
+				}
+			})
+		}
 	}
 
 //to see all recipes
@@ -120,10 +146,49 @@ class Search extends Component{
 							)
 						})}
 				</div>	
-				<RecipeModal open = {this.state.modalStatus} recipe = {this.state.recipe} close = {this.closeModal} />
+				<RecipeModal 
+				open = {this.state.modalStatus} 
+				recipe = {this.state.recipe} 
+				close = {this.closeModal} 
+				favorite={this.myFavorite}
+				favs = {this.state.favs} 
+				auth = {this.state.auth}
+				/>
 			</div>
 		)
 	}
 }
 
 export default Search;
+
+
+
+// myFavorites(user, id){
+//      console.log(user, id)
+//      let data ={user : user, id: id}
+//      if (this.state.favText === 'Add To Favorites'){
+//        axios.post(`${API}/addToFavorite`,{
+//          data: data
+//        }).then((response)=>{
+//          console.log(response)
+//          if (response.data.result === 'success'){
+//            this.setState({
+//              favColor: "red",
+//              favText: "Remove From Favorites"
+//            })
+//          }
+//        })
+//      }else if(this.state.favText === 'Remove From Favorites'){
+//        axios.post(`${API}/removeFromFavorites`,{
+//          data: data
+//        }).then((response)=>{
+//          console.log(response)
+//          if (response.data.result === 'success'){
+//            this.setState({
+//              favColor: "lightgreen",
+//              favText: "Add To Favorites"
+//            })
+//         }
+//        })
+//      }
+//   }
