@@ -84,7 +84,7 @@ class Search extends Component{
 			data: ingredient
 		}).then((response)=>{
 			let message = this.state.message;
-			if (response.data.length != 0){
+			if (response.data.length !== 0){
 				message = `There are ${response.data.length} results for ${ingredient}`
 		    }else if(response.data.length == 0){
 		    	message = "There are no results for your search, redefine your search and try again"
@@ -128,7 +128,7 @@ class Search extends Component{
 				<div className="buttons">
 					<form onSubmit={this.handleSubmit.bind(this)}>
 						<input placeholder={this.state.placeholder} name="title" />
-						<button type="submit" className="btn">find by title</button>
+						<button type="submit" className="btn">search</button>
 		        	</form>
 		        </div>
 		        <h2>{this.state.message}</h2>

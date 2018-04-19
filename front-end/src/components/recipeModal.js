@@ -17,7 +17,7 @@ const RecipeModal = (props) => {
 	       		return <li key={index}>{item}</li>
 	     	})
 	    var nutrient = nutrients.map((item, index) => {
-	    	return <li key={index}>{item[0]}: {item[1]}</li>
+	    	return <li key={index}>{item[0]}: {item[1]} {(item[0]!=='Servings' ? 'g' : '')}</li>
 	    })
 	return(
 		<Modal
@@ -65,7 +65,7 @@ const RecipeModal = (props) => {
             	</div>
         	</div>
         	<div>
-        		<h3 className="recipeSource">The source of this recipe is <a target="_blank" href={recipe.source}>here</a></h3>
+        		<h3 className="recipeSource">The source for this recipe is <a target="_blank" href={recipe.source}>here</a></h3>
         	</div>
 		</Modal>
 		)
