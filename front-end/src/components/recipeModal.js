@@ -1,7 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
 
-
 // <div className="modalSteps"></div>
 //this is static component
 const RecipeModal = (props) => {
@@ -29,6 +28,14 @@ const RecipeModal = (props) => {
 
 		<div className="modalTitle">{recipe.title}</div>
           	<div className='modalWrapper'>
+          		<div className="veryTop">
+	                	<button className="favorite" 
+	                	style = {{backgroundColor: 'lightgreen'}}
+	                	onClick={()=>console.log('click')}>
+	                	Add To Favorites
+	                	</button>
+          			<img onClick={props.close} className="closeButton" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJxSURBVGhD7do7q9RAGMbxtdHSC146P4AKXhBFsBG8gIJgo62WIjZiaadooaWt1vod7LVRLFVQe1FEvKDg7f+EM4ec9Z3Me2ZGk5HzwI8D2SRnH7Iz2SQ7i2QPbuIp3uLXiD7hGe7gBFYhmU24h5+wdjoFD7EL0WzDa1gbT42O0in8ER2JVkoE37AfS3If1spT9wpr0EWftymPiZQL6HIL1gqteIQummKtFVrxA2sx+nmiBs245gutOQjzhdasFJmaKkVu4zze9ZZ5aLa5isv4srAsV3GRKwjZDW+Z7ziHkKP4DGtdj6Ii/RIhnjLzJUKOILdMdhF9nGIZKhMrEXIa1nYp2UUWv99EYpVJlVC2o7+NV3YRvUm92aH0y6jEWQxlPR5j/n95FI0Rb5k3SJXYgNwSUlREPGXWLfyNpbSEFBcRT5lYapSQKkUkp0ytElKtiCynjEo8gbWfHFWLiAZ2akwoD2Btn6tqEc8UG6IjpyNo7SdHtSLLKRFSs0yVIjklQmqVKS5SUiKkRpmiIp4Smp00sFOzWWmZ7CLeEmGK1Zv8m2Wyi+jKbijWecJT5hj623hlF7mEWIZOdqky+2Btl5JdRFdyhzEfzxk7VmYrXsLaJqVosKuMrrVDPCWC+TIqoTvr1roeRUVEdz/OYAe8JQKV0XX6XpSUkOIiU7FSZGr+ryIfewta1c2AehhvvdiSzZjd7S1o0XN0OQ5rhVZcRxf9tkNPRq2Vpu4DNmIxO1FyW38s5r3kk/gKa4MpuoZoDiD3G+i/8h6pu/pdVuMiNG70eMza2Rhe4AaWjAlv9IsCPbM4BF1/jEEnuy0YyGz2GwWF/rfGLnZfAAAAAElFTkSuQmCC" />
+              	</div>
               	<div className="modalHeader">
                 	<h3>Rating for this recipe: {(Number(recipe.rating)).toFixed(2)}</h3>
                 	<h3>Preparation : {directions[0][1]}in</h3>
@@ -57,7 +64,9 @@ const RecipeModal = (props) => {
                 	{/*<div className="modalSteps">Source : {recipe.source}</div>*/}
             	</div>
         	</div>
-		<button onClick={props.close}>close modal</button>
+        	<div>
+        		<h3 className="recipeSource">The source of this recipe is <a target="_blank" href={recipe.source}>here</a></h3>
+        	</div>
 		</Modal>
 		)
 	}else{

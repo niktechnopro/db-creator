@@ -107,7 +107,6 @@ class Search extends Component{
 		        </div>
 		        <h2>{this.state.message}</h2>
 				<div className="recipes">
-					<ul>
 						{this.state.recipes.map((recipe, index)=>{
 							return (
 							<div className = "element" key={index}>
@@ -120,7 +119,6 @@ class Search extends Component{
 							</div>
 							)
 						})}
-					</ul>
 				</div>	
 				<RecipeModal open = {this.state.modalStatus} recipe = {this.state.recipe} close = {this.closeModal} />
 			</div>

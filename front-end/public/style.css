@@ -11,7 +11,8 @@ body{
 .element{
 	width: 460px;
 	display: inline-block;
-	margin: 0 auto;
+	/*display: flex;
+	flex-flow: row wrap;*/
 	margin: 0.5rem;
 	cursor: pointer;
 }
@@ -27,7 +28,8 @@ ul{
 .recipeWrapper{
 	width: 460px;
 	height: 280px;
-	border: 2px solid black;
+	border: 3px solid black;
+	border-radius: 5px;
 }
 
 .recipeHeader{
@@ -87,7 +89,9 @@ ul{
 }
 
 .favorite{
+	outline: none;
 	cursor: pointer;
+	border-radius: 10px;
 }
 
 .item img{
@@ -169,6 +173,7 @@ p{
 	min-height: auto;
 	border: 5px solid black;
 	margin: 0 auto;
+	border-radius: 15px;
 }
 
 .modalHeader{
@@ -241,6 +246,26 @@ p{
 
 .rightSide{
 	margin-left: 3rem;
+}
+
+.closeButton{
+	cursor: pointer;
+}
+
+.veryTop{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.recipeSource{
+	text-align: center;	
+}
+
+.recipeWrapper:hover{
+	background: rgba(0,0,0,0.1);
+	box-shadow: 0 0 0 3px #3a7999;
+	transition: 300ms;
 }
 /*end of modal portion*/
 
