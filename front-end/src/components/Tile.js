@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 const Tile = (props) => {
-  console.log(props);
+  // console.log(props);
   let recipe = props.recipe;
   let directions = Object.entries(JSON.parse(recipe.directions));
   return(

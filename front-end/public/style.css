@@ -286,3 +286,20 @@ p{
 	}
 }
 
+.ReactModalPortal > div{
+	/*top: 8rem;
+	bottom: 8rem;*/
+	opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay{
+	transition: opacity 400ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open{
+	opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close{
+	opacity: 0;
+}

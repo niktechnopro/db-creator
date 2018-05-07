@@ -12,7 +12,7 @@ const RecipeModal = (props) => {
 		let directions = Object.entries(JSON.parse(recipe.directions));
 		let nutrients = Object.entries(JSON.parse(recipe.nutrients));//this returns 
 		// array of arrays made up from key/value pairs
-		console.log(nutrients)
+		// console.log(nutrients)
 	    var ingredient = ingredients.map((item, index)=>{
 	       		return <li key={index}>{item}</li>
 	     	})
@@ -24,6 +24,7 @@ const RecipeModal = (props) => {
 		isOpen = {props.open}
 		onRequestClose = {props.close}
 		contentLabel = "full description of the recipe" //for assistive technology only
+		closeTimeoutMS = {400}
 		>
 
 		<div className="modalTitle">{recipe.title}</div>
