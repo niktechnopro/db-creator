@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-
+import StarRating from './StarRating';
 
 const Tile = (props) => {
-  // console.log(props);
+  console.log(props);
   let recipe = props.recipe;
   let directions = Object.entries(JSON.parse(recipe.directions));
   return(
@@ -10,7 +10,7 @@ const Tile = (props) => {
          <div className="title">{recipe.title}</div>
           <div className='recipeWrapper'>
               <div className="recipeHeader">
-                <h3>Rating : {(Number(recipe.rating)).toFixed(2)}</h3>
+                <h3>Rating : <StarRating starColor = {'173, 159, 7'} starDimention = {'25px'} rating = {Number(recipe.rating)} /></h3>
              </div>
             <main className="mainContainer">
               <div className="leftContainer">
@@ -26,6 +26,8 @@ const Tile = (props) => {
    )
 }
 
+// starColor = {'173, 159, 7'}
+// starDimention = {'25px'}
 // class Tile extends Component{
 //   constructor(){
 //     super();

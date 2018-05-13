@@ -287,8 +287,6 @@ p{
 }
 
 .ReactModalPortal > div{
-	/*top: 8rem;
-	bottom: 8rem;*/
 	opacity: 0;
 }
 
@@ -298,6 +296,11 @@ p{
 
 .ReactModalPortal .ReactModal__Overlay--after-open{
 	opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Body--open{
+	top: 8rem;
+	bottom: 8rem;
 }
 
 .ReactModalPortal .ReactModal__Overlay--before-close{
