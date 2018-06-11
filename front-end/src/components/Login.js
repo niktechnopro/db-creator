@@ -1,112 +1,150 @@
-import React, { Component } from 'react';
-import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
-import { Redirect } from 'react-router-dom';
-import axios from 'axios';
-import "./Login.css";
-// import facebook from '../images/facebook.png';
-import google from '../images/google.png';
-// import smoothies from '../smoothie-recipes.jpg';
-const API = 'http://localhost:3002';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import MenuItem from '@material-ui/core/MenuItem';
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
+import Icon from '@material-ui/core/Icon';
+import validate from '../utilities/validators';
+import Typography from '@material-ui/core/Typography';
 
-
-class Login extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      email: "",
-      password: "",
-      isValid: "",
-      isAuthenticated: false
-    };
+const styles = theme => ({
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'
+  },
+  textField: {
+    marginLeft: theme.spacing.unit,
+    marginRight: theme.spacing.unit,
+    fontSize: '20px',
+    width: 300,
+  },
+  button: {
+    width: 200,
+    margin: theme.spacing.unit,
+  },
+  Icon: {
+    rightIcon: {
+      marginLeft: theme.spacing.unit,
+    },
   }
+});
 
-  validateForm() {
-    return this.state.email.length > 0 && this.state.password.length > 3;
-  }
 
-  handleChange = (event) => {
+class Login extends React.Component {
+  state = {
+    email: '',
+    password: '',
+    emailError: ' ',
+    passwordError: ' ',
+    loginError:''
+  };
+
+  handleChange = name => event => {
     this.setState({
-      [event.target.id]: event.target.value
+      [name]: event.target.value,
     });
+  };
+
+  resetHelper = (field) => (e) => {
+    e.preventDefault();
+    switch(field){
+      case('email'):
+        this.setState({email: ''})
+        break
+      case('password'):
+        this.setState({password: ''})
+        break
+    }
   }
 
-  handleSubmit = (event) => {
-    event.preventDefault();
-    let email = this.state.email;
-    let password = this.state.password;
-    this.setState({ //reseting values in the field
-      email: "",
-      password: "",
-      isAuthenticated: ''
+  validate = () => {
+    //let's validate that this is an email
+    const emailErr = validate.isEmail(this.state.email)
+    //let's validate password
+    let isError = false;
+    let errors = {
+      emailError: ' ',
+      passwordError: ' '
+    };
+    const passwordError = validate.isPassword(this.state.password)
+    console.log(emailErr, passwordError)
+    if(!emailErr){
+      isError = true
+      errors.emailError = 'Requires valid email'
+    }
+    if(!passwordError){
+      isError = true
+      errors.passwordError = 'Must have at least 1 capital letter and number'
+    }
+    this.setState({
+      ...this.state,//means - keep the same state for everything but next options
+      ...errors
     })
-    console.log(email, password);
-    axios.post(`${API}/login`,{
-        email: email,
-        password: password
-      }).then((response)=>{
-        console.log(response)
-        //now, if login success we need to update navbar - remove register
-        //substitute it with Favorites
-        if(response.status === 200 && response.data.login === 'success'){
-          console.log('user exists and succesfuly logged in')
-          this.setState({
-            isAuthenticated: true
-          })
-          let user = {username: response.data.username, email: response.data.email}
-          this.props.user(user)//passed to App.js handleUser
-        }else if(response.status === 200 && response.data.login === 'badlogin'){
-          console.log('redirect user to register page')
-        }else{
-          console.log('something went wrong')
-        }
-      })
+    console.log(isError)
+    return isError;
+  }
+
+  onSubmit = (e) => {
+    e.preventDefault();
+    const error = this.validate()
+    if (!error){
+      console.log('proceed')
+    }
   }
 
   render() {
-    console.log(this.props)
+    console.log(this.state)
+    const { classes } = this.props;
+
     return (
-      <div className="Login">
-        <h1>Login Form</h1>
-        <form onSubmit={this.handleSubmit}>
-          <FormGroup controlId="email" bsSize="large">
-            <ControlLabel className="font">Email</ControlLabel>
-            <FormControl
-              autoFocus
-              type="email"
-              placeholder = "enter your email"
-              value={this.state.email}
-              onChange={this.handleChange}
-            />
-          </FormGroup>
-          <FormGroup controlId="password" bsSize="large">
-            <ControlLabel className="font">Password</ControlLabel>
-            <FormControl
-              placeholder = "your password is here"
-              value={this.state.password}
-              onChange={this.handleChange}
-              type="password"
-            />
-          </FormGroup>
-          <Button
-            bsStyle = "primary"
-            className = "social"
-            block
-            bsSize="large"
-            disabled={!this.validateForm()}//button is only enabled when the right info in the fields
-            type="submit"
+      <form className={classes.container} noValidate autoComplete="off">
+        <Typography variant="title" gutterBottom>
+          Login Form
+        </Typography>
+        <TextField
+          required={true}
+          id="email"
+          required={true}
+          value={this.state.email}
+          label="enter your email here"
+          placeholder="email you registered with"
+          className={classes.textField}
+          error={(this.state.emailError === ' ') ? false : true}
+          onChange={this.handleChange('email')}
+          helperText={this.state.emailError}
+          onFocus = {this.resetHelper('email')}
+        />
+        <br />
+        <TextField
+          required={true}
+          id="password"
+          required={true}
+          type="password"
+          value={this.state.password}
+          label="enter your password here"
+          placeholder="password you registered with"
+          className={classes.textField}
+          error={(this.state.passwordError === ' ') ? false : true}
+          onChange={this.handleChange('password')}
+          helperText={this.state.passwordError}
+          onFocus = {this.resetHelper('password')}
+        />
+        <Button variant="contained" 
+          color="primary" 
+          className={classes.button}
+          onClick={this.onSubmit}
           >
-            Login
-          </Button>
-        </form>
-        <h2>Sign In with your social media account</h2>
-        <div className="googleface">
-          <span className="social"><img className="media" src={google}></img></span>
-        </div>
-        {(this.state.isAuthenticated) && (<Redirect to={'/search'} />)}
-      </div>
+          Login
+        </Button>
+      </form>
     );
   }
 }
 
-export default Login;
+Login.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(Login);

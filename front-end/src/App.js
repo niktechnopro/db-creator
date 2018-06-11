@@ -86,7 +86,7 @@ class App extends Component {
 	return (
 		<Router>
 			<div className="App">
-				<Search />}
+				<Login />
     		</div>
     	</Router>   	
 		);
