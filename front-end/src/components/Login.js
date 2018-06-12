@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import MenuItem from '@material-ui/core/MenuItem';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-import Icon from '@material-ui/core/Icon';
+import { Send } from '@material-ui/icons';//better way if want to
 import validate from '../utilities/validators';
 import Typography from '@material-ui/core/Typography';
 
@@ -137,6 +137,7 @@ class Login extends React.Component {
           onClick={this.onSubmit}
           >
           Login
+          <Send />
         </Button>
       </form>
     );
